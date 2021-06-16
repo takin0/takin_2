@@ -1,0 +1,176 @@
+#! encoding:utf8
+import os,sys
+path_base=os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+path_base=path_base.replace('\\', '/')
+sys.path.append(path_base)
+import imaplib
+import email,time,datetime
+from email.header import decode_header
+from time import sleep
+from modules.mains.load_ini import ReadConfig
+
+emlcf = ReadConfig()
+
+email_popserver = emlcf.get_emcf("popserver")
+email_username = emlcf.get_emcf("username")
+email_password = emlcf.get_emcf("password")
+email_from_addr = emlcf.get_emcf("from_addr")
+email_addr = emlcf.get_emcf("to_addr")
+email_popport = emlcf.get_emcf("popport")
+def parseHeader(message):
+    """ 解析邮件首部 """  
+    # 主题
+
+    date = message.get('Date')#[-14:-6]
+    #print(date)
+    if date:
+        date = date[-14:-6]
+        date = datetime.datetime.strptime(date, '%H:%M:%S')
+
+        date2 = time.strftime("%H:%M:%S", time.localtime())
+        date2 = datetime.datetime.strptime(date2, '%H:%M:%S')
+    
+        a = date2 -date
+        b = datetime.timedelta(minutes=5)
+        if a < b:
+            subject = message.get('subject')
+        
+            dh = decode_header(subject)
+            result = dh[0][0].decode(dh[0][1])
+
+    #aa = email.utils.parseaddr(message.get('date'))
+    #print(result)
+    # 发件人
+    #fromer = email.utils.parseaddr(message.get('from'))[1]
+    #print(aa)
+    # 收件人
+    #print ('To:', email.utils.parseaddr(message.get('to'))[1])
+    # 抄送人
+    #print ('Cc:',email.utils.parseaddr(message.get_all('cc'))[1])
+            return result
+        else:
+            return "暂无新邮件"
+    else:
+        return "暂无新邮件"
+ 
+def parseBody(message):
+    """ 解析邮件/信体 """
+    # 循环信件中的每一个mime的数据块
+    qqq = 1
+    for part in message.walk():
+        # 这里要判断是否是multipart，是的话，里面的数据是一个message 列表
+        if  not part.is_multipart():
+            #print(part)
+            charset = part.get_charset()
+            #print(part.get_content_charset)
+            contenttype = part.get_content_type()
+            #print(contenttype)
+            if contenttype == 'text/plain':
+                txt=(str(part.get_payload(decode=True),encoding="gbk"))
+                qqq = 0
+                return txt
+        if qqq != 1:
+            break
+
+def get_new_Mail_sub(host, username, password, port=993):
+    
+    try:
+        serv = imaplib.IMAP4_SSL(host, port)
+    except Exception as e:
+        serv = imaplib.IMAP4(host, port)
+    serv.login(username, password)
+    serv.select()
+    typ, data = serv.search('GB2312','(SUBJECT,"Verification Code")')
+    #typ, data = serv.search(None,'(SUBJECT,"Verification Code")')
+    #aa= serv.search(None, '回复：Verification Code')
+    print(data)
+    count = 1
+    pcount = 1
+    subject = ""
+    for num in data[0].split()[::-1]:
+        typ, data = serv.fetch(num, 'RFC822')
+        text = data[0][1]
+        #print(text)
+        message = email.message_from_string(str(text,encoding="gbk"))# 转换为email.message对象
+        #message = email.message_from_bytes(text)
+        #print(message)
+        subject = parseHeader(message)
+        
+        #txt = parseBody(message)   
+        pcount += 1
+        if pcount > count:
+            break 
+    serv.close()
+    serv.logout()
+    return subject
+
+def get_new_Mail_txt(host, username, password, port=993):            
+    try:
+        serv = imaplib.IMAP4_SSL(host, port)
+    except Exception as e:
+        serv = imaplib.IMAP4(host, port) 
+    serv.login(username, password)
+    serv.select()
+    # 搜索邮件内容
+    typ, data = serv.search(None, 'ALL')
+    #print(typ, data)
+    count = 1
+    pcount = 1
+    for num in data[0].split()[::-1]:
+        typ, data = serv.fetch(num, 'RFC822')
+        text = data[0][1]
+        #print(dir(data))
+        message = email.message_from_string(str(text,encoding="gbk"))# 转换为email.message对象
+        #message = email.message_from_bytes(text)
+        #subject = parseHeader(message)
+        txt = parseBody(message)   
+        pcount += 1
+        if pcount > count:
+            break
+    serv.close()
+    serv.logout()
+    return txt
+
+def del_mail(host=email_popserver, username=email_username, password=email_password, gjz="Verification Code",port=email_popport):
+    try:
+        serv = imaplib.IMAP4_SSL(host, port)
+    except Exception as e:
+        serv = imaplib.IMAP4(host, port) 
+    serv.login(username, password)
+    serv.select()
+    # 搜索邮件内容
+    typ, data = serv.search(None, 'ALL')
+    count = 1
+    pcount = 1
+    for num in data[0].split()[::-1]:
+        serv.delete(num)
+        print("删除完成")
+    serv.close()
+    serv.logout()
+    return txt
+
+
+def get_verifi_mail(n=4,host=email_popserver, username=email_username, password=email_password, gjz="回复：Verification Code",port=email_popport):
+    aaa = True
+    bbb = 1
+    while aaa:
+        subject = get_new_Mail_sub(host, username, password, port)
+        sleep(2)
+        bbb+=1
+        txt = "未收到验证码!!!!!"
+        #print(mail_sub)
+        if gjz in subject:
+            aaa = False
+            txt = get_new_Mail_txt(host, username, password, port)
+            #print('txt'+txt)
+        elif bbb > 120:
+            aaa = False
+    return txt[0:n]
+            
+
+ 
+ 
+if __name__ == '__main__':
+    ss=get_verifi_mail(5)
+    print(ss)
+    #del_mail()

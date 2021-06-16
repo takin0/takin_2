@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6823fe2-f1a7-46f3-9fb7-9f40e25c6a25" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jrgDDiojAUsXtidZgWt9zBcMIT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.run_test_suit">
+    <configuration name="login_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/xdata/login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/xdata/login/login_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_test_suit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_test_suit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for login_test.loginTest.test_correct_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/yancloud/login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;login_test.loginTest.test_correct_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for xunit.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/xdata" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;xunit.MyTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in login_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/yancloud/login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/modules/yancloud/login/login_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_test_suit" />
+        <item itemvalue="Python.login_test" />
+        <item itemvalue="Python tests.Unittests for xunit.MyTest" />
+        <item itemvalue="Python tests.Unittests for login_test.loginTest.test_correct_login" />
+        <item itemvalue="Python tests.Unittests in login_test.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6823fe2-f1a7-46f3-9fb7-9f40e25c6a25" name="Default Changelist" comment="" />
+      <created>1564381631337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564381631337</updated>
+    </task>
+    <task id="LOCAL-00001" summary="第三次提交">
+      <created>1564391879185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564391879195</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第四次提交">
+      <created>1564392120951</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564392120951</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第三次提交" />
+    <MESSAGE value="第四次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四次提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1515" height="285" key="GridCell.Tab.0.bottom" timestamp="1623751256648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="285" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.876@0.0.1536.824" timestamp="1623751256648" />
+    <state width="1515" height="285" key="GridCell.Tab.0.center" timestamp="1623751256648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="285" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.876@0.0.1536.824" timestamp="1623751256648" />
+    <state width="1515" height="285" key="GridCell.Tab.0.left" timestamp="1623751256648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="285" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.876@0.0.1536.824" timestamp="1623751256648" />
+    <state width="1515" height="285" key="GridCell.Tab.0.right" timestamp="1623751256648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="285" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.876@0.0.1536.824" timestamp="1623751256648" />
+    <state width="1515" height="285" key="GridCell.Tab.1.bottom" timestamp="1623751256649">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="285" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1080.1920.876@0.0.1536.824" timestamp="1623751256649" />
+    <state width="1515" height="285" key="GridCell.Tab.1.center" timestamp="1623751256649">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="285" key="GridCell.Tab.1.center/0.0.1536.824/0.-1080.1920.876@0.0.1536.824" timestamp="1623751256649" />
+    <state width="1515" height="285" key="GridCell.Tab.1.left" timestamp="1623751256648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="285" key="GridCell.Tab.1.left/0.0.1536.824/0.-1080.1920.876@0.0.1536.824" timestamp="1623751256648" />
+    <state width="1515" height="285" key="GridCell.Tab.1.right" timestamp="1623751256649">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="285" key="GridCell.Tab.1.right/0.0.1536.824/0.-1080.1920.876@0.0.1536.824" timestamp="1623751256649" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1621494836437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824/0.-1080.1920.876@0.0.1536.824" timestamp="1621494836437" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/yancloud/updata/updata.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/yancloud/login/login_test.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/mains/myunit.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/mains/myunit.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/mains/myunit.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/mains/myunit.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/yancloud/login/login_test.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/yancloud/login/login_test.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/yancloud/login/login_procs.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/yancloud/login/login_procs.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/yancloud/login/login_procs.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/yancloud/login/login_procs.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_test_suit.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_test_suit.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_test_suit.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_test_suit.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_test_suit.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_test_suit.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_test_suit.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_test_suit.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/xdata/login/login_test.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/xdata/xunit.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/xdata/xunit.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/xdata/xunit.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/mains/browser.py</url>
+          <line>292</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/mains/browser.py</url>
+          <line>248</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/run03/run03_procs.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="func" language="Python" />
+      </configuration>
+      <configuration name="PythonConfigurationType">
+        <watch expression="configparser" language="Python" />
+        <watch expression="os.path.join(os.getcwd(), 'conf')" language="Python" />
+        <watch expression="os.getcwd()" language="Python" />
+        <watch expression="os.path.dirname(os.path.dirname(os.getcwd()))" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

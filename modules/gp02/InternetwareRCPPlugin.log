@@ -1,0 +1,50 @@
+2021-06-07 10:11:52:DEBUG main cn.internetware.yandata.rcp.view.AbstractNewTabView - iconUrl: file:/F:/QQDownload/plugins/cn.internetware.RCPplugin_2.0.0.201905140941/icons/internetware_16x16.png
+2021-06-07 10:11:53:DEBUG main cn.internetware.yandata.rcp.constants.Constants - init localStorage cache host to https://10.10.11.106
+2021-06-07 10:11:53:INFO main cn.internetware.yandata.rcp.constants.Constants - initial url set to https://10.10.11.106/#/login
+2021-06-07 10:11:53:DEBUG main cn.internetware.yandata.rcp.view.IndexView - remote debugging url: http://localhost:9222/devtools/inspector.html?ws=localhost:9222/devtools/page/7360ae2e-5c3e-4da2-9838-964c834e55ab
+2021-06-07 10:11:53:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - local inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 10:11:53:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - server inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 10:11:54:INFO Worker-0 cn.internetware.yandata.rcp.update.CheckForUpdatesJob - 未发现可用的更新 === updatesite: http://10.10.11.106/app/lite/updates, message: 没有找到更新。
+2021-06-07 10:12:45:DEBUG main cn.internetware.yandata.rcp.view.AbstractNewTabView - disposing cn.internetware.yanphone.rcp.browser.chrome.ChromeBrowser@506aa618
+2021-06-07 10:13:33:DEBUG main cn.internetware.yandata.rcp.view.AbstractNewTabView - iconUrl: file:/F:/QQDownload/plugins/cn.internetware.RCPplugin_2.0.0.201905140941/icons/internetware_16x16.png
+2021-06-07 10:13:33:DEBUG main cn.internetware.yandata.rcp.constants.Constants - init localStorage cache host to https://10.10.11.106
+2021-06-07 10:13:34:INFO main cn.internetware.yandata.rcp.constants.Constants - initial url set to https://10.10.11.106/#/login
+2021-06-07 10:13:34:DEBUG main cn.internetware.yandata.rcp.view.IndexView - remote debugging url: http://localhost:9222/devtools/inspector.html?ws=localhost:9222/devtools/page/77053ff6-0b13-4fc6-acc3-49341372dbac
+2021-06-07 10:13:34:DEBUG Worker-0 cn.internetware.yandata.rcp.startup.CheckForInjectJs - local inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 10:13:34:DEBUG Worker-0 cn.internetware.yandata.rcp.startup.CheckForInjectJs - server inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 10:13:34:INFO Worker-1 cn.internetware.yandata.rcp.update.CheckForUpdatesJob - 未发现可用的更新 === updatesite: http://10.10.11.106/app/lite/updates, message: 没有找到更新。
+2021-06-07 10:31:27:DEBUG main cn.internetware.yandata.rcp.view.AbstractNewTabView - iconUrl: file:/F:/QQDownload/plugins/cn.internetware.RCPplugin_2.0.0.201905140941/icons/internetware_16x16.png
+2021-06-07 10:31:27:DEBUG main cn.internetware.yandata.rcp.constants.Constants - init localStorage cache host to https://10.10.11.106
+2021-06-07 10:31:28:INFO main cn.internetware.yandata.rcp.constants.Constants - initial url set to https://10.10.11.106/#/login
+2021-06-07 10:31:28:DEBUG main cn.internetware.yandata.rcp.view.IndexView - remote debugging url: http://localhost:9222/devtools/inspector.html?ws=localhost:9222/devtools/page/764ae334-f961-460d-ac79-20f0f4fbd73e
+2021-06-07 10:31:28:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - local inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 10:31:28:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - server inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 10:31:28:INFO Worker-0 cn.internetware.yandata.rcp.update.CheckForUpdatesJob - 未发现可用的更新 === updatesite: http://10.10.11.106/app/lite/updates, message: 没有找到更新。
+2021-06-07 10:54:38:DEBUG main cn.internetware.yandata.rcp.view.AbstractNewTabView - iconUrl: file:/F:/QQDownload/plugins/cn.internetware.RCPplugin_2.0.0.201905140941/icons/internetware_16x16.png
+2021-06-07 10:54:38:DEBUG main cn.internetware.yandata.rcp.constants.Constants - init localStorage cache host to https://10.10.11.106
+2021-06-07 10:54:38:INFO main cn.internetware.yandata.rcp.constants.Constants - initial url set to https://10.10.11.106/#/login
+2021-06-07 10:54:38:DEBUG main cn.internetware.yandata.rcp.view.IndexView - remote debugging url: http://localhost:9222/devtools/inspector.html?ws=localhost:9222/devtools/page/a6d56181-a34c-4334-b677-55ef009d9b84
+2021-06-07 10:54:38:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - local inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 10:54:38:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - server inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 10:54:39:INFO Worker-0 cn.internetware.yandata.rcp.update.CheckForUpdatesJob - 未发现可用的更新 === updatesite: http://10.10.11.106/app/lite/updates, message: 没有找到更新。
+2021-06-07 10:58:58:DEBUG main cn.internetware.yandata.rcp.view.AbstractNewTabView - iconUrl: file:/F:/QQDownload/plugins/cn.internetware.RCPplugin_2.0.0.201905140941/icons/internetware_16x16.png
+2021-06-07 10:58:58:DEBUG main cn.internetware.yandata.rcp.constants.Constants - init localStorage cache host to https://10.10.11.106
+2021-06-07 10:58:58:INFO main cn.internetware.yandata.rcp.constants.Constants - initial url set to https://10.10.11.106/#/login
+2021-06-07 10:58:58:DEBUG main cn.internetware.yandata.rcp.view.IndexView - remote debugging url: http://localhost:9222/devtools/inspector.html?ws=localhost:9222/devtools/page/69926236-602b-4a8f-bf51-b0ad5c8d6c1c
+2021-06-07 10:58:58:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - local inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 10:58:58:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - server inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 10:58:59:INFO Worker-0 cn.internetware.yandata.rcp.update.CheckForUpdatesJob - 未发现可用的更新 === updatesite: http://10.10.11.106/app/lite/updates, message: 没有找到更新。
+2021-06-07 11:02:07:DEBUG main cn.internetware.yandata.rcp.view.AbstractNewTabView - iconUrl: file:/F:/QQDownload/plugins/cn.internetware.RCPplugin_2.0.0.201905140941/icons/internetware_16x16.png
+2021-06-07 11:02:07:DEBUG main cn.internetware.yandata.rcp.constants.Constants - init localStorage cache host to https://10.10.11.106
+2021-06-07 11:02:07:INFO main cn.internetware.yandata.rcp.constants.Constants - initial url set to https://10.10.11.106/#/login
+2021-06-07 11:02:07:DEBUG main cn.internetware.yandata.rcp.view.IndexView - remote debugging url: http://localhost:9222/devtools/inspector.html?ws=localhost:9222/devtools/page/01642e01-6959-4d1f-ab55-960c4195783a
+2021-06-07 11:02:07:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - local inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 11:02:07:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - server inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 11:02:08:INFO Worker-0 cn.internetware.yandata.rcp.update.CheckForUpdatesJob - 未发现可用的更新 === updatesite: http://10.10.11.106/app/lite/updates, message: 没有找到更新。
+2021-06-07 11:09:41:DEBUG main cn.internetware.yandata.rcp.view.AbstractNewTabView - iconUrl: file:/F:/QQDownload/plugins/cn.internetware.RCPplugin_2.0.0.201905140941/icons/internetware_16x16.png
+2021-06-07 11:09:41:DEBUG main cn.internetware.yandata.rcp.constants.Constants - init localStorage cache host to https://10.10.11.106
+2021-06-07 11:09:41:INFO main cn.internetware.yandata.rcp.constants.Constants - initial url set to https://10.10.11.106/#/login
+2021-06-07 11:09:41:DEBUG main cn.internetware.yandata.rcp.view.IndexView - remote debugging url: http://localhost:9222/devtools/inspector.html?ws=localhost:9222/devtools/page/83eb659f-89cd-4754-bb31-5d35d91a8189
+2021-06-07 11:09:41:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - local inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 11:09:41:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - server inject js zip MD5 :0178008371629093d0d7b9133339aece
+2021-06-07 11:09:42:INFO Worker-0 cn.internetware.yandata.rcp.update.CheckForUpdatesJob - 未发现可用的更新 === updatesite: http://10.10.11.106/app/lite/updates, message: 没有找到更新。

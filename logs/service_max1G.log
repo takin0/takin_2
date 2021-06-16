@@ -1,0 +1,1204 @@
+2021-06-15 17:06:57 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}]'
+2021-06-15 17:06:57 [14388 Thread-1:9232] DEBUG _new_conn connectionpool.py-226 :"Starting new HTTP connection (1): 127.0.0.1:14310" @TAKIN
+'[DEBUG][Starting new HTTP connection (1): 127.0.0.1:14310]'
+2021-06-15 17:06:57 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session HTTP/1.1" 200 752" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session HTTP/1.1" 200 752]'
+2021-06-15 17:06:57 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:06:57 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/url {"url": "https://10.10.11.7:9004"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/url {"url": "https://10.10.11.7:9004"}]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/url HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/url HTTP/1.1" 200 14]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/timeouts {"implicit": 10000}]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/118d3913-e6ee-4eca-bdae-dc6807819dc6/clear {"id": "118d3913-e6ee-4eca-bdae-dc6807819dc6"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/118d3913-e6ee-4eca-bdae-dc6807819dc6/clear {"id": "118d3913-e6ee-4eca-bdae-dc6807819dc6"}]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/118d3913-e6ee-4eca-bdae-dc6807819dc6/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/118d3913-e6ee-4eca-bdae-dc6807819dc6/clear HTTP/1.1" 200 14]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/118d3913-e6ee-4eca-bdae-dc6807819dc6/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "118d3913-e6ee-4eca-bdae-dc6807819dc6"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/118d3913-e6ee-4eca-bdae-dc6807819dc6/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "118d3913-e6ee-4eca-bdae-dc6807819dc6"}]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/118d3913-e6ee-4eca-bdae-dc6807819dc6/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/118d3913-e6ee-4eca-bdae-dc6807819dc6/value HTTP/1.1" 200 14]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/f3d8ce61-95e0-45e4-9a82-7eab4bae8098/clear {"id": "f3d8ce61-95e0-45e4-9a82-7eab4bae8098"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/f3d8ce61-95e0-45e4-9a82-7eab4bae8098/clear {"id": "f3d8ce61-95e0-45e4-9a82-7eab4bae8098"}]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/f3d8ce61-95e0-45e4-9a82-7eab4bae8098/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/f3d8ce61-95e0-45e4-9a82-7eab4bae8098/clear HTTP/1.1" 200 14]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/f3d8ce61-95e0-45e4-9a82-7eab4bae8098/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "f3d8ce61-95e0-45e4-9a82-7eab4bae8098"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/f3d8ce61-95e0-45e4-9a82-7eab4bae8098/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "f3d8ce61-95e0-45e4-9a82-7eab4bae8098"}]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/f3d8ce61-95e0-45e4-9a82-7eab4bae8098/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/f3d8ce61-95e0-45e4-9a82-7eab4bae8098/value HTTP/1.1" 200 14]'
+2021-06-15 17:06:58 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": ".ivu-checkbox-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": ".ivu-checkbox-input"}]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/1e1c9e63-427e-4061-8fa5-9e32b5e9a58e/click {"id": "1e1c9e63-427e-4061-8fa5-9e32b5e9a58e"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/1e1c9e63-427e-4061-8fa5-9e32b5e9a58e/click {"id": "1e1c9e63-427e-4061-8fa5-9e32b5e9a58e"}]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/1e1c9e63-427e-4061-8fa5-9e32b5e9a58e/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/1e1c9e63-427e-4061-8fa5-9e32b5e9a58e/click HTTP/1.1" 200 14]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/b326a147-fe2f-4c03-98c2-7c8ababea383/click {"id": "b326a147-fe2f-4c03-98c2-7c8ababea383"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/b326a147-fe2f-4c03-98c2-7c8ababea383/click {"id": "b326a147-fe2f-4c03-98c2-7c8ababea383"}]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/b326a147-fe2f-4c03-98c2-7c8ababea383/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/b326a147-fe2f-4c03-98c2-7c8ababea383/click HTTP/1.1" 200 14]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:00 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}]'
+2021-06-15 17:07:10 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 404 1050" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 404 1050]'
+2021-06-15 17:07:10 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:10 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/screenshot {}]'
+2021-06-15 17:07:10 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "GET /session/9b19bbe169adc22fce895079cf60bbf4/screenshot HTTP/1.1" 200 123612" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "GET /session/9b19bbe169adc22fce895079cf60bbf4/screenshot HTTP/1.1" 200 123612]'
+2021-06-15 17:07:10 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:10 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/screenshot {}]'
+2021-06-15 17:07:10 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "GET /session/9b19bbe169adc22fce895079cf60bbf4/screenshot HTTP/1.1" 200 123612" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "GET /session/9b19bbe169adc22fce895079cf60bbf4/screenshot HTTP/1.1" 200 123612]'
+2021-06-15 17:07:10 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:10 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/timeouts {"implicit": 10000}]'
+2021-06-15 17:07:10 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:07:10 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:12 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}]'
+2021-06-15 17:07:22 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 404 1050" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 404 1050]'
+2021-06-15 17:07:22 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:22 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/screenshot {}]'
+2021-06-15 17:07:22 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "GET /session/9b19bbe169adc22fce895079cf60bbf4/screenshot HTTP/1.1" 200 123612" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "GET /session/9b19bbe169adc22fce895079cf60bbf4/screenshot HTTP/1.1" 200 123612]'
+2021-06-15 17:07:22 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:22 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/screenshot {}]'
+2021-06-15 17:07:23 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "GET /session/9b19bbe169adc22fce895079cf60bbf4/screenshot HTTP/1.1" 200 123612" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "GET /session/9b19bbe169adc22fce895079cf60bbf4/screenshot HTTP/1.1" 200 123612]'
+2021-06-15 17:07:23 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:24 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": "li:nth-child(2) > .nav-item"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": "li:nth-child(2) > .nav-item"}]'
+2021-06-15 17:07:24 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88]'
+2021-06-15 17:07:24 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:24 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/ba82fd94-a0fa-4418-902c-ddb3bb747132/click {"id": "ba82fd94-a0fa-4418-902c-ddb3bb747132"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/ba82fd94-a0fa-4418-902c-ddb3bb747132/click {"id": "ba82fd94-a0fa-4418-902c-ddb3bb747132"}]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/ba82fd94-a0fa-4418-902c-ddb3bb747132/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/ba82fd94-a0fa-4418-902c-ddb3bb747132/click HTTP/1.1" 200 14]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": ".pro-form-operating-add > span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": ".pro-form-operating-add > span"}]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/65038cca-ee31-4da2-a533-623bf0875f0a/click {"id": "65038cca-ee31-4da2-a533-623bf0875f0a"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/65038cca-ee31-4da2-a533-623bf0875f0a/click {"id": "65038cca-ee31-4da2-a533-623bf0875f0a"}]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/65038cca-ee31-4da2-a533-623bf0875f0a/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/65038cca-ee31-4da2-a533-623bf0875f0a/click HTTP/1.1" 200 14]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": ".ivu-form-item:nth-child(1) .ivu-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": ".ivu-form-item:nth-child(1) .ivu-input"}]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/38136f1d-2701-4fd9-9a36-fb4835a05046/clear {"id": "38136f1d-2701-4fd9-9a36-fb4835a05046"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/38136f1d-2701-4fd9-9a36-fb4835a05046/clear {"id": "38136f1d-2701-4fd9-9a36-fb4835a05046"}]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/38136f1d-2701-4fd9-9a36-fb4835a05046/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/38136f1d-2701-4fd9-9a36-fb4835a05046/clear HTTP/1.1" 200 14]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/38136f1d-2701-4fd9-9a36-fb4835a05046/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "38136f1d-2701-4fd9-9a36-fb4835a05046"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/38136f1d-2701-4fd9-9a36-fb4835a05046/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "38136f1d-2701-4fd9-9a36-fb4835a05046"}]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/38136f1d-2701-4fd9-9a36-fb4835a05046/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/38136f1d-2701-4fd9-9a36-fb4835a05046/value HTTP/1.1" 200 14]'
+2021-06-15 17:07:25 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:27 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": ".ivu-form-item:nth-child(2) .ivu-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "css selector", "value": ".ivu-form-item:nth-child(2) .ivu-input"}]'
+2021-06-15 17:07:27 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88]'
+2021-06-15 17:07:27 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:27 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5/clear {"id": "cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5/clear {"id": "cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5"}]'
+2021-06-15 17:07:27 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5/clear HTTP/1.1" 200 14]'
+2021-06-15 17:07:27 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:27 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5"}]'
+2021-06-15 17:07:27 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/cd07740b-2deb-4bc4-9df4-4cc5da9e8aa5/value HTTP/1.1" 200 14]'
+2021-06-15 17:07:27 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:29 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "xpath", "value": "/html/body/div/div/div/div[2]/div[2]/div[1]/form/div[3]/div/div/input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "xpath", "value": "/html/body/div/div/div/div[2]/div[2]/div[1]/form/div[3]/div/div/input"}]'
+2021-06-15 17:07:29 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88]'
+2021-06-15 17:07:29 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:29 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/2de04b9e-4c8e-4415-9472-beb6d0abc15b/clear {"id": "2de04b9e-4c8e-4415-9472-beb6d0abc15b"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/2de04b9e-4c8e-4415-9472-beb6d0abc15b/clear {"id": "2de04b9e-4c8e-4415-9472-beb6d0abc15b"}]'
+2021-06-15 17:07:29 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/2de04b9e-4c8e-4415-9472-beb6d0abc15b/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/2de04b9e-4c8e-4415-9472-beb6d0abc15b/clear HTTP/1.1" 200 14]'
+2021-06-15 17:07:29 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:29 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/2de04b9e-4c8e-4415-9472-beb6d0abc15b/value {"text": "E:\\\u9879\u76ee\u5305\\6387_\u65b0\u798f\u5927_20210526180511368.iw", "value": ["E", ":", "\\", "\u9879", "\u76ee", "\u5305", "\\", "6", "3", "8", "7", "_", "\u65b0", "\u798f", "\u5927", "_", "2", "0", "2", "1", "0", "5", "2", "6", "1", "8", "0", "5", "1", "1", "3", "6", "8", ".", "i", "w"], "id": "2de04b9e-4c8e-4415-9472-beb6d0abc15b"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/2de04b9e-4c8e-4415-9472-beb6d0abc15b/value {"text": "E:\\\u9879\u76ee\u5305\\6387_\u65b0\u798f\u5927_20210526180511368.iw", "value": ["E", ":", "\\", "\u9879", "\u76ee", "\u5305", "\\", "6", "3", "8", "7", "_", "\u65b0", "\u798f", "\u5927", "_", "2", "0", "2", "1", "0", "5", "2", "6", "1", "8", "0", "5", "1", "1", "3", "6", "8", ".", "i", "w"], "id": "2de04b9e-4c8e-4415-9472-beb6d0abc15b"}]'
+2021-06-15 17:07:29 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/2de04b9e-4c8e-4415-9472-beb6d0abc15b/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/2de04b9e-4c8e-4415-9472-beb6d0abc15b/value HTTP/1.1" 200 14]'
+2021-06-15 17:07:29 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:31 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div[1]/div[2]/div/button[2]/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div[1]/div[2]/div/button[2]/span"}]'
+2021-06-15 17:07:31 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element HTTP/1.1" 200 88]'
+2021-06-15 17:07:31 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:31 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/a2ad1dc7-b872-4b36-8c7e-d178eed777ea/click {"id": "a2ad1dc7-b872-4b36-8c7e-d178eed777ea"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/element/a2ad1dc7-b872-4b36-8c7e-d178eed777ea/click {"id": "a2ad1dc7-b872-4b36-8c7e-d178eed777ea"}]'
+2021-06-15 17:07:31 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/a2ad1dc7-b872-4b36-8c7e-d178eed777ea/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/element/a2ad1dc7-b872-4b36-8c7e-d178eed777ea/click HTTP/1.1" 200 14]'
+2021-06-15 17:07:31 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:43 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4/timeouts {"implicit": 10000}]'
+2021-06-15 17:07:43 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "POST /session/9b19bbe169adc22fce895079cf60bbf4/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:07:43 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:07:43 [14388 Thread-1:9232] DEBUG _request remote_connection.py-388 :"DELETE http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4 {}" @TAKIN
+'[DEBUG][DELETE http://127.0.0.1:14310/session/9b19bbe169adc22fce895079cf60bbf4 {}]'
+2021-06-15 17:07:43 [14388 Thread-1:9232] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:14310 "DELETE /session/9b19bbe169adc22fce895079cf60bbf4 HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:14310 "DELETE /session/9b19bbe169adc22fce895079cf60bbf4 HTTP/1.1" 200 14]'
+2021-06-15 17:07:43 [14388 Thread-1:9232] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:13 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}]'
+2021-06-15 17:14:13 [2272 Thread-1:6140] DEBUG _new_conn connectionpool.py-226 :"Starting new HTTP connection (1): 127.0.0.1:29107" @TAKIN
+'[DEBUG][Starting new HTTP connection (1): 127.0.0.1:29107]'
+2021-06-15 17:14:13 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session HTTP/1.1" 200 753" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session HTTP/1.1" 200 753]'
+2021-06-15 17:14:13 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:13 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/url {"url": "https://10.10.11.7:9004"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/url {"url": "https://10.10.11.7:9004"}]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/url HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/url HTTP/1.1" 200 14]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/timeouts {"implicit": 10000}]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/f83f840f-2291-4bb5-91da-b22c6a3eebbb/clear {"id": "f83f840f-2291-4bb5-91da-b22c6a3eebbb"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/f83f840f-2291-4bb5-91da-b22c6a3eebbb/clear {"id": "f83f840f-2291-4bb5-91da-b22c6a3eebbb"}]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/f83f840f-2291-4bb5-91da-b22c6a3eebbb/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/f83f840f-2291-4bb5-91da-b22c6a3eebbb/clear HTTP/1.1" 200 14]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/f83f840f-2291-4bb5-91da-b22c6a3eebbb/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "f83f840f-2291-4bb5-91da-b22c6a3eebbb"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/f83f840f-2291-4bb5-91da-b22c6a3eebbb/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "f83f840f-2291-4bb5-91da-b22c6a3eebbb"}]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/f83f840f-2291-4bb5-91da-b22c6a3eebbb/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/f83f840f-2291-4bb5-91da-b22c6a3eebbb/value HTTP/1.1" 200 14]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/333941a8-8246-477e-820a-7c354e0c200c/clear {"id": "333941a8-8246-477e-820a-7c354e0c200c"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/333941a8-8246-477e-820a-7c354e0c200c/clear {"id": "333941a8-8246-477e-820a-7c354e0c200c"}]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/333941a8-8246-477e-820a-7c354e0c200c/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/333941a8-8246-477e-820a-7c354e0c200c/clear HTTP/1.1" 200 14]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/333941a8-8246-477e-820a-7c354e0c200c/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "333941a8-8246-477e-820a-7c354e0c200c"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/333941a8-8246-477e-820a-7c354e0c200c/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "333941a8-8246-477e-820a-7c354e0c200c"}]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/333941a8-8246-477e-820a-7c354e0c200c/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/333941a8-8246-477e-820a-7c354e0c200c/value HTTP/1.1" 200 14]'
+2021-06-15 17:14:14 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": ".ivu-checkbox-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": ".ivu-checkbox-input"}]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/6b4df353-4351-4706-b1bc-cee1df4d78e7/click {"id": "6b4df353-4351-4706-b1bc-cee1df4d78e7"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/6b4df353-4351-4706-b1bc-cee1df4d78e7/click {"id": "6b4df353-4351-4706-b1bc-cee1df4d78e7"}]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/6b4df353-4351-4706-b1bc-cee1df4d78e7/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/6b4df353-4351-4706-b1bc-cee1df4d78e7/click HTTP/1.1" 200 14]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/5d1f2867-8f79-4fd2-8fab-d372a4f7a2ab/click {"id": "5d1f2867-8f79-4fd2-8fab-d372a4f7a2ab"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/5d1f2867-8f79-4fd2-8fab-d372a4f7a2ab/click {"id": "5d1f2867-8f79-4fd2-8fab-d372a4f7a2ab"}]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/5d1f2867-8f79-4fd2-8fab-d372a4f7a2ab/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/5d1f2867-8f79-4fd2-8fab-d372a4f7a2ab/click HTTP/1.1" 200 14]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:16 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}]'
+2021-06-15 17:14:26 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 404 1050" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 404 1050]'
+2021-06-15 17:14:26 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:26 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/screenshot {}]'
+2021-06-15 17:14:26 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "GET /session/ee2ffbf1ea107bb6143c5394829a028c/screenshot HTTP/1.1" 200 120960" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "GET /session/ee2ffbf1ea107bb6143c5394829a028c/screenshot HTTP/1.1" 200 120960]'
+2021-06-15 17:14:26 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:26 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/screenshot {}]'
+2021-06-15 17:14:26 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "GET /session/ee2ffbf1ea107bb6143c5394829a028c/screenshot HTTP/1.1" 200 120960" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "GET /session/ee2ffbf1ea107bb6143c5394829a028c/screenshot HTTP/1.1" 200 120960]'
+2021-06-15 17:14:26 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:26 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/timeouts {"implicit": 10000}]'
+2021-06-15 17:14:26 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:14:26 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:28 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}]'
+2021-06-15 17:14:38 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 404 1050" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 404 1050]'
+2021-06-15 17:14:38 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:38 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/screenshot {}]'
+2021-06-15 17:14:38 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "GET /session/ee2ffbf1ea107bb6143c5394829a028c/screenshot HTTP/1.1" 200 120960" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "GET /session/ee2ffbf1ea107bb6143c5394829a028c/screenshot HTTP/1.1" 200 120960]'
+2021-06-15 17:14:38 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:38 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/screenshot {}]'
+2021-06-15 17:14:39 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "GET /session/ee2ffbf1ea107bb6143c5394829a028c/screenshot HTTP/1.1" 200 120960" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "GET /session/ee2ffbf1ea107bb6143c5394829a028c/screenshot HTTP/1.1" 200 120960]'
+2021-06-15 17:14:39 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:40 [2272 Thread-1:6140] ERROR wrapper log.py-20 :"µÇÂ¼²âÊÔ" @TAKIN
+'[ERROR][µÇÂ¼²âÊÔ]'
+Traceback (most recent call last):
+  File "F:\pythonI\takin-master\modules\mains\log.py", line 18, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\takin\AppData\Local\Programs\Python\Python39\lib\site-packages\BeautifulReport\BeautifulReport.py", line 462, in __wrap
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+2021-06-15 17:14:40 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": "li:nth-child(2) > .nav-item"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": "li:nth-child(2) > .nav-item"}]'
+2021-06-15 17:14:40 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88]'
+2021-06-15 17:14:40 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:40 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/bddf2393-d86b-4833-9f33-79777abfe490/click {"id": "bddf2393-d86b-4833-9f33-79777abfe490"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/bddf2393-d86b-4833-9f33-79777abfe490/click {"id": "bddf2393-d86b-4833-9f33-79777abfe490"}]'
+2021-06-15 17:14:40 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/bddf2393-d86b-4833-9f33-79777abfe490/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/bddf2393-d86b-4833-9f33-79777abfe490/click HTTP/1.1" 200 14]'
+2021-06-15 17:14:40 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:40 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": ".pro-form-operating-add > span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": ".pro-form-operating-add > span"}]'
+2021-06-15 17:14:40 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88]'
+2021-06-15 17:14:40 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:40 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/a224fc50-78a0-4200-9e06-96100a7cb26d/click {"id": "a224fc50-78a0-4200-9e06-96100a7cb26d"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/a224fc50-78a0-4200-9e06-96100a7cb26d/click {"id": "a224fc50-78a0-4200-9e06-96100a7cb26d"}]'
+2021-06-15 17:14:41 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/a224fc50-78a0-4200-9e06-96100a7cb26d/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/a224fc50-78a0-4200-9e06-96100a7cb26d/click HTTP/1.1" 200 14]'
+2021-06-15 17:14:41 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:41 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": ".ivu-form-item:nth-child(1) .ivu-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": ".ivu-form-item:nth-child(1) .ivu-input"}]'
+2021-06-15 17:14:41 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88]'
+2021-06-15 17:14:41 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:41 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/c7052f6b-b096-454a-8943-3f603f4c0f78/clear {"id": "c7052f6b-b096-454a-8943-3f603f4c0f78"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/c7052f6b-b096-454a-8943-3f603f4c0f78/clear {"id": "c7052f6b-b096-454a-8943-3f603f4c0f78"}]'
+2021-06-15 17:14:41 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/c7052f6b-b096-454a-8943-3f603f4c0f78/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/c7052f6b-b096-454a-8943-3f603f4c0f78/clear HTTP/1.1" 200 14]'
+2021-06-15 17:14:41 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:41 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/c7052f6b-b096-454a-8943-3f603f4c0f78/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "c7052f6b-b096-454a-8943-3f603f4c0f78"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/c7052f6b-b096-454a-8943-3f603f4c0f78/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "c7052f6b-b096-454a-8943-3f603f4c0f78"}]'
+2021-06-15 17:14:41 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/c7052f6b-b096-454a-8943-3f603f4c0f78/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/c7052f6b-b096-454a-8943-3f603f4c0f78/value HTTP/1.1" 200 14]'
+2021-06-15 17:14:41 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:43 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": ".ivu-form-item:nth-child(2) .ivu-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "css selector", "value": ".ivu-form-item:nth-child(2) .ivu-input"}]'
+2021-06-15 17:14:43 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88]'
+2021-06-15 17:14:43 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:43 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/1bd912ea-af4e-4fc1-939c-682f242cb3e0/clear {"id": "1bd912ea-af4e-4fc1-939c-682f242cb3e0"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/1bd912ea-af4e-4fc1-939c-682f242cb3e0/clear {"id": "1bd912ea-af4e-4fc1-939c-682f242cb3e0"}]'
+2021-06-15 17:14:43 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/1bd912ea-af4e-4fc1-939c-682f242cb3e0/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/1bd912ea-af4e-4fc1-939c-682f242cb3e0/clear HTTP/1.1" 200 14]'
+2021-06-15 17:14:43 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:43 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/1bd912ea-af4e-4fc1-939c-682f242cb3e0/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "1bd912ea-af4e-4fc1-939c-682f242cb3e0"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/1bd912ea-af4e-4fc1-939c-682f242cb3e0/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "1bd912ea-af4e-4fc1-939c-682f242cb3e0"}]'
+2021-06-15 17:14:43 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/1bd912ea-af4e-4fc1-939c-682f242cb3e0/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/1bd912ea-af4e-4fc1-939c-682f242cb3e0/value HTTP/1.1" 200 14]'
+2021-06-15 17:14:43 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:45 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "xpath", "value": "/html/body/div/div/div/div[2]/div[2]/div[1]/form/div[3]/div/div/input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "xpath", "value": "/html/body/div/div/div/div[2]/div[2]/div[1]/form/div[3]/div/div/input"}]'
+2021-06-15 17:14:45 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88]'
+2021-06-15 17:14:45 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:45 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/ca633b75-0b4d-4705-a09c-31ac33bb1ef8/clear {"id": "ca633b75-0b4d-4705-a09c-31ac33bb1ef8"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/ca633b75-0b4d-4705-a09c-31ac33bb1ef8/clear {"id": "ca633b75-0b4d-4705-a09c-31ac33bb1ef8"}]'
+2021-06-15 17:14:45 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/ca633b75-0b4d-4705-a09c-31ac33bb1ef8/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/ca633b75-0b4d-4705-a09c-31ac33bb1ef8/clear HTTP/1.1" 200 14]'
+2021-06-15 17:14:45 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:45 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/ca633b75-0b4d-4705-a09c-31ac33bb1ef8/value {"text": "E:\\\u9879\u76ee\u5305\\6387_\u65b0\u798f\u5927_20210526180511368.iw", "value": ["E", ":", "\\", "\u9879", "\u76ee", "\u5305", "\\", "6", "3", "8", "7", "_", "\u65b0", "\u798f", "\u5927", "_", "2", "0", "2", "1", "0", "5", "2", "6", "1", "8", "0", "5", "1", "1", "3", "6", "8", ".", "i", "w"], "id": "ca633b75-0b4d-4705-a09c-31ac33bb1ef8"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/ca633b75-0b4d-4705-a09c-31ac33bb1ef8/value {"text": "E:\\\u9879\u76ee\u5305\\6387_\u65b0\u798f\u5927_20210526180511368.iw", "value": ["E", ":", "\\", "\u9879", "\u76ee", "\u5305", "\\", "6", "3", "8", "7", "_", "\u65b0", "\u798f", "\u5927", "_", "2", "0", "2", "1", "0", "5", "2", "6", "1", "8", "0", "5", "1", "1", "3", "6", "8", ".", "i", "w"], "id": "ca633b75-0b4d-4705-a09c-31ac33bb1ef8"}]'
+2021-06-15 17:14:45 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/ca633b75-0b4d-4705-a09c-31ac33bb1ef8/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/ca633b75-0b4d-4705-a09c-31ac33bb1ef8/value HTTP/1.1" 200 14]'
+2021-06-15 17:14:45 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:47 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div[1]/div[2]/div/button[2]/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div[1]/div[2]/div/button[2]/span"}]'
+2021-06-15 17:14:47 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element HTTP/1.1" 200 88]'
+2021-06-15 17:14:47 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:47 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/9d10cde9-2aa7-4fa3-a620-710c7a479954/click {"id": "9d10cde9-2aa7-4fa3-a620-710c7a479954"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/element/9d10cde9-2aa7-4fa3-a620-710c7a479954/click {"id": "9d10cde9-2aa7-4fa3-a620-710c7a479954"}]'
+2021-06-15 17:14:47 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/9d10cde9-2aa7-4fa3-a620-710c7a479954/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/element/9d10cde9-2aa7-4fa3-a620-710c7a479954/click HTTP/1.1" 200 14]'
+2021-06-15 17:14:47 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:59 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c/timeouts {"implicit": 10000}]'
+2021-06-15 17:14:59 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "POST /session/ee2ffbf1ea107bb6143c5394829a028c/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:14:59 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:14:59 [2272 Thread-1:6140] DEBUG _request remote_connection.py-388 :"DELETE http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c {}" @TAKIN
+'[DEBUG][DELETE http://127.0.0.1:29107/session/ee2ffbf1ea107bb6143c5394829a028c {}]'
+2021-06-15 17:14:59 [2272 Thread-1:6140] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:29107 "DELETE /session/ee2ffbf1ea107bb6143c5394829a028c HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:29107 "DELETE /session/ee2ffbf1ea107bb6143c5394829a028c HTTP/1.1" 200 14]'
+2021-06-15 17:14:59 [2272 Thread-1:6140] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:29 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}]'
+2021-06-15 17:37:29 [15844 Thread-1:18160] DEBUG _new_conn connectionpool.py-226 :"Starting new HTTP connection (1): 127.0.0.1:1039" @TAKIN
+'[DEBUG][Starting new HTTP connection (1): 127.0.0.1:1039]'
+2021-06-15 17:37:29 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session HTTP/1.1" 200 753" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session HTTP/1.1" 200 753]'
+2021-06-15 17:37:29 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:29 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/url {"url": "https://10.10.11.7:9004"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/url {"url": "https://10.10.11.7:9004"}]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/url HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/url HTTP/1.1" 200 14]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/timeouts {"implicit": 10000}]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/1b505a1c-1630-4975-8ab1-64cd12899b49/clear {"id": "1b505a1c-1630-4975-8ab1-64cd12899b49"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/1b505a1c-1630-4975-8ab1-64cd12899b49/clear {"id": "1b505a1c-1630-4975-8ab1-64cd12899b49"}]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/1b505a1c-1630-4975-8ab1-64cd12899b49/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/1b505a1c-1630-4975-8ab1-64cd12899b49/clear HTTP/1.1" 200 14]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/1b505a1c-1630-4975-8ab1-64cd12899b49/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "1b505a1c-1630-4975-8ab1-64cd12899b49"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/1b505a1c-1630-4975-8ab1-64cd12899b49/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "1b505a1c-1630-4975-8ab1-64cd12899b49"}]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/1b505a1c-1630-4975-8ab1-64cd12899b49/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/1b505a1c-1630-4975-8ab1-64cd12899b49/value HTTP/1.1" 200 14]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2/clear {"id": "66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2/clear {"id": "66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2"}]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2/clear HTTP/1.1" 200 14]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2"}]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/66aa79e2-e8c3-4e44-ab37-5a18d1b2fde2/value HTTP/1.1" 200 14]'
+2021-06-15 17:37:30 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": ".ivu-checkbox-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": ".ivu-checkbox-input"}]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/ebab22eb-6f41-4f8b-9124-1d8b5c5e0600/click {"id": "ebab22eb-6f41-4f8b-9124-1d8b5c5e0600"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/ebab22eb-6f41-4f8b-9124-1d8b5c5e0600/click {"id": "ebab22eb-6f41-4f8b-9124-1d8b5c5e0600"}]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/ebab22eb-6f41-4f8b-9124-1d8b5c5e0600/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/ebab22eb-6f41-4f8b-9124-1d8b5c5e0600/click HTTP/1.1" 200 14]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/8cdcfd40-b924-4bf4-a46d-94f76bbbdf67/click {"id": "8cdcfd40-b924-4bf4-a46d-94f76bbbdf67"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/8cdcfd40-b924-4bf4-a46d-94f76bbbdf67/click {"id": "8cdcfd40-b924-4bf4-a46d-94f76bbbdf67"}]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/8cdcfd40-b924-4bf4-a46d-94f76bbbdf67/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/8cdcfd40-b924-4bf4-a46d-94f76bbbdf67/click HTTP/1.1" 200 14]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:32 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}]'
+2021-06-15 17:37:42 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 404 1050" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 404 1050]'
+2021-06-15 17:37:42 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:42 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/screenshot {}]'
+2021-06-15 17:37:42 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "GET /session/4e43369c9220b37dc6dd94a71f4d4406/screenshot HTTP/1.1" 200 121864" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "GET /session/4e43369c9220b37dc6dd94a71f4d4406/screenshot HTTP/1.1" 200 121864]'
+2021-06-15 17:37:42 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:42 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/screenshot {}]'
+2021-06-15 17:37:42 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "GET /session/4e43369c9220b37dc6dd94a71f4d4406/screenshot HTTP/1.1" 200 121864" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "GET /session/4e43369c9220b37dc6dd94a71f4d4406/screenshot HTTP/1.1" 200 121864]'
+2021-06-15 17:37:42 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:42 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/timeouts {"implicit": 10000}]'
+2021-06-15 17:37:42 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:37:42 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:44 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}]'
+2021-06-15 17:37:54 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 404 1050" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 404 1050]'
+2021-06-15 17:37:54 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:54 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/screenshot {}]'
+2021-06-15 17:37:54 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "GET /session/4e43369c9220b37dc6dd94a71f4d4406/screenshot HTTP/1.1" 200 121864" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "GET /session/4e43369c9220b37dc6dd94a71f4d4406/screenshot HTTP/1.1" 200 121864]'
+2021-06-15 17:37:54 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:54 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/screenshot {}]'
+2021-06-15 17:37:54 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "GET /session/4e43369c9220b37dc6dd94a71f4d4406/screenshot HTTP/1.1" 200 121864" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "GET /session/4e43369c9220b37dc6dd94a71f4d4406/screenshot HTTP/1.1" 200 121864]'
+2021-06-15 17:37:54 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] ERROR wrapper log.py-20 :"µÇÂ¼²âÊÔ" @TAKIN
+'[ERROR][µÇÂ¼²âÊÔ]'
+Traceback (most recent call last):
+  File "F:\pythonI\takin-master\modules\mains\log.py", line 18, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\takin\AppData\Local\Programs\Python\Python39\lib\site-packages\BeautifulReport\BeautifulReport.py", line 462, in __wrap
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": "li:nth-child(2) > .nav-item"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": "li:nth-child(2) > .nav-item"}]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/6d5c4354-4940-41ed-a399-54218d71d4e2/click {"id": "6d5c4354-4940-41ed-a399-54218d71d4e2"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/6d5c4354-4940-41ed-a399-54218d71d4e2/click {"id": "6d5c4354-4940-41ed-a399-54218d71d4e2"}]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/6d5c4354-4940-41ed-a399-54218d71d4e2/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/6d5c4354-4940-41ed-a399-54218d71d4e2/click HTTP/1.1" 200 14]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": ".pro-form-operating-add > span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": ".pro-form-operating-add > span"}]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/08295900-80ef-444b-81e3-fd5595b70e65/click {"id": "08295900-80ef-444b-81e3-fd5595b70e65"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/08295900-80ef-444b-81e3-fd5595b70e65/click {"id": "08295900-80ef-444b-81e3-fd5595b70e65"}]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/08295900-80ef-444b-81e3-fd5595b70e65/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/08295900-80ef-444b-81e3-fd5595b70e65/click HTTP/1.1" 200 14]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": ".ivu-form-item:nth-child(1) .ivu-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": ".ivu-form-item:nth-child(1) .ivu-input"}]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/8ca37432-e694-4fd5-900e-e9f0e3f9217b/clear {"id": "8ca37432-e694-4fd5-900e-e9f0e3f9217b"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/8ca37432-e694-4fd5-900e-e9f0e3f9217b/clear {"id": "8ca37432-e694-4fd5-900e-e9f0e3f9217b"}]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/8ca37432-e694-4fd5-900e-e9f0e3f9217b/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/8ca37432-e694-4fd5-900e-e9f0e3f9217b/clear HTTP/1.1" 200 14]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:56 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/8ca37432-e694-4fd5-900e-e9f0e3f9217b/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "8ca37432-e694-4fd5-900e-e9f0e3f9217b"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/8ca37432-e694-4fd5-900e-e9f0e3f9217b/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "8ca37432-e694-4fd5-900e-e9f0e3f9217b"}]'
+2021-06-15 17:37:57 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/8ca37432-e694-4fd5-900e-e9f0e3f9217b/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/8ca37432-e694-4fd5-900e-e9f0e3f9217b/value HTTP/1.1" 200 14]'
+2021-06-15 17:37:57 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:59 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": ".ivu-form-item:nth-child(2) .ivu-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "css selector", "value": ".ivu-form-item:nth-child(2) .ivu-input"}]'
+2021-06-15 17:37:59 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88]'
+2021-06-15 17:37:59 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:59 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/4111d364-29bf-4441-98f7-09d06abb180b/clear {"id": "4111d364-29bf-4441-98f7-09d06abb180b"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/4111d364-29bf-4441-98f7-09d06abb180b/clear {"id": "4111d364-29bf-4441-98f7-09d06abb180b"}]'
+2021-06-15 17:37:59 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/4111d364-29bf-4441-98f7-09d06abb180b/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/4111d364-29bf-4441-98f7-09d06abb180b/clear HTTP/1.1" 200 14]'
+2021-06-15 17:37:59 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:37:59 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/4111d364-29bf-4441-98f7-09d06abb180b/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "4111d364-29bf-4441-98f7-09d06abb180b"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/4111d364-29bf-4441-98f7-09d06abb180b/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "4111d364-29bf-4441-98f7-09d06abb180b"}]'
+2021-06-15 17:37:59 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/4111d364-29bf-4441-98f7-09d06abb180b/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/4111d364-29bf-4441-98f7-09d06abb180b/value HTTP/1.1" 200 14]'
+2021-06-15 17:37:59 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:38:01 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "xpath", "value": "/html/body/div/div/div/div[2]/div[2]/div[1]/form/div[3]/div/div/input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "xpath", "value": "/html/body/div/div/div/div[2]/div[2]/div[1]/form/div[3]/div/div/input"}]'
+2021-06-15 17:38:01 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88]'
+2021-06-15 17:38:01 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:38:01 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/6c98b069-63eb-43c6-bf21-2e7fa5b5563b/clear {"id": "6c98b069-63eb-43c6-bf21-2e7fa5b5563b"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/6c98b069-63eb-43c6-bf21-2e7fa5b5563b/clear {"id": "6c98b069-63eb-43c6-bf21-2e7fa5b5563b"}]'
+2021-06-15 17:38:01 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/6c98b069-63eb-43c6-bf21-2e7fa5b5563b/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/6c98b069-63eb-43c6-bf21-2e7fa5b5563b/clear HTTP/1.1" 200 14]'
+2021-06-15 17:38:01 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:38:01 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/6c98b069-63eb-43c6-bf21-2e7fa5b5563b/value {"text": "E:\\\u9879\u76ee\u5305\\6387_\u65b0\u798f\u5927_20210526180511368.iw", "value": ["E", ":", "\\", "\u9879", "\u76ee", "\u5305", "\\", "6", "3", "8", "7", "_", "\u65b0", "\u798f", "\u5927", "_", "2", "0", "2", "1", "0", "5", "2", "6", "1", "8", "0", "5", "1", "1", "3", "6", "8", ".", "i", "w"], "id": "6c98b069-63eb-43c6-bf21-2e7fa5b5563b"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/6c98b069-63eb-43c6-bf21-2e7fa5b5563b/value {"text": "E:\\\u9879\u76ee\u5305\\6387_\u65b0\u798f\u5927_20210526180511368.iw", "value": ["E", ":", "\\", "\u9879", "\u76ee", "\u5305", "\\", "6", "3", "8", "7", "_", "\u65b0", "\u798f", "\u5927", "_", "2", "0", "2", "1", "0", "5", "2", "6", "1", "8", "0", "5", "1", "1", "3", "6", "8", ".", "i", "w"], "id": "6c98b069-63eb-43c6-bf21-2e7fa5b5563b"}]'
+2021-06-15 17:38:01 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/6c98b069-63eb-43c6-bf21-2e7fa5b5563b/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/6c98b069-63eb-43c6-bf21-2e7fa5b5563b/value HTTP/1.1" 200 14]'
+2021-06-15 17:38:01 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:38:03 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div[1]/div[2]/div/button[2]/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div[1]/div[2]/div/button[2]/span"}]'
+2021-06-15 17:38:03 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element HTTP/1.1" 200 88]'
+2021-06-15 17:38:03 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:38:03 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/a7dfdc37-de92-4c5a-a621-20dc5c73d1ed/click {"id": "a7dfdc37-de92-4c5a-a621-20dc5c73d1ed"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/element/a7dfdc37-de92-4c5a-a621-20dc5c73d1ed/click {"id": "a7dfdc37-de92-4c5a-a621-20dc5c73d1ed"}]'
+2021-06-15 17:38:03 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/a7dfdc37-de92-4c5a-a621-20dc5c73d1ed/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/element/a7dfdc37-de92-4c5a-a621-20dc5c73d1ed/click HTTP/1.1" 200 14]'
+2021-06-15 17:38:03 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:38:15 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406/timeouts {"implicit": 10000}]'
+2021-06-15 17:38:15 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "POST /session/4e43369c9220b37dc6dd94a71f4d4406/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:38:15 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:38:15 [15844 Thread-1:18160] DEBUG _request remote_connection.py-388 :"DELETE http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406 {}" @TAKIN
+'[DEBUG][DELETE http://127.0.0.1:1039/session/4e43369c9220b37dc6dd94a71f4d4406 {}]'
+2021-06-15 17:38:15 [15844 Thread-1:18160] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:1039 "DELETE /session/4e43369c9220b37dc6dd94a71f4d4406 HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:1039 "DELETE /session/4e43369c9220b37dc6dd94a71f4d4406 HTTP/1.1" 200 14]'
+2021-06-15 17:38:15 [15844 Thread-1:18160] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:06 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}]'
+2021-06-15 17:47:06 [7076 Thread-1:12740] DEBUG _new_conn connectionpool.py-226 :"Starting new HTTP connection (1): 127.0.0.1:22343" @TAKIN
+'[DEBUG][Starting new HTTP connection (1): 127.0.0.1:22343]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session HTTP/1.1" 200 752" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session HTTP/1.1" 200 752]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/url {"url": "https://10.10.11.7:9004"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/url {"url": "https://10.10.11.7:9004"}]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/url HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/url HTTP/1.1" 200 14]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/timeouts {"implicit": 10000}]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/1611b27c-6b6c-40fb-829b-7a949e4f51de/clear {"id": "1611b27c-6b6c-40fb-829b-7a949e4f51de"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/1611b27c-6b6c-40fb-829b-7a949e4f51de/clear {"id": "1611b27c-6b6c-40fb-829b-7a949e4f51de"}]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/1611b27c-6b6c-40fb-829b-7a949e4f51de/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/1611b27c-6b6c-40fb-829b-7a949e4f51de/clear HTTP/1.1" 200 14]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/1611b27c-6b6c-40fb-829b-7a949e4f51de/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "1611b27c-6b6c-40fb-829b-7a949e4f51de"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/1611b27c-6b6c-40fb-829b-7a949e4f51de/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "1611b27c-6b6c-40fb-829b-7a949e4f51de"}]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/1611b27c-6b6c-40fb-829b-7a949e4f51de/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/1611b27c-6b6c-40fb-829b-7a949e4f51de/value HTTP/1.1" 200 14]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/3b3f968f-6085-40a7-8153-c5e9d77de0e4/clear {"id": "3b3f968f-6085-40a7-8153-c5e9d77de0e4"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/3b3f968f-6085-40a7-8153-c5e9d77de0e4/clear {"id": "3b3f968f-6085-40a7-8153-c5e9d77de0e4"}]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/3b3f968f-6085-40a7-8153-c5e9d77de0e4/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/3b3f968f-6085-40a7-8153-c5e9d77de0e4/clear HTTP/1.1" 200 14]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/3b3f968f-6085-40a7-8153-c5e9d77de0e4/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "3b3f968f-6085-40a7-8153-c5e9d77de0e4"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/3b3f968f-6085-40a7-8153-c5e9d77de0e4/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "3b3f968f-6085-40a7-8153-c5e9d77de0e4"}]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/3b3f968f-6085-40a7-8153-c5e9d77de0e4/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/3b3f968f-6085-40a7-8153-c5e9d77de0e4/value HTTP/1.1" 200 14]'
+2021-06-15 17:47:07 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": ".ivu-checkbox-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": ".ivu-checkbox-input"}]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/f79a9b73-e7c2-4df1-99e2-15b7d1137133/click {"id": "f79a9b73-e7c2-4df1-99e2-15b7d1137133"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/f79a9b73-e7c2-4df1-99e2-15b7d1137133/click {"id": "f79a9b73-e7c2-4df1-99e2-15b7d1137133"}]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/f79a9b73-e7c2-4df1-99e2-15b7d1137133/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/f79a9b73-e7c2-4df1-99e2-15b7d1137133/click HTTP/1.1" 200 14]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/ef49d487-64a0-484a-8a9c-c22ee368b9d1/click {"id": "ef49d487-64a0-484a-8a9c-c22ee368b9d1"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/ef49d487-64a0-484a-8a9c-c22ee368b9d1/click {"id": "ef49d487-64a0-484a-8a9c-c22ee368b9d1"}]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/ef49d487-64a0-484a-8a9c-c22ee368b9d1/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/ef49d487-64a0-484a-8a9c-c22ee368b9d1/click HTTP/1.1" 200 14]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:09 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}]'
+2021-06-15 17:47:19 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 404 1050" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 404 1050]'
+2021-06-15 17:47:19 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:19 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/screenshot {}]'
+2021-06-15 17:47:19 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "GET /session/fd51622617b8328275e570430fd89159/screenshot HTTP/1.1" 200 121636" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "GET /session/fd51622617b8328275e570430fd89159/screenshot HTTP/1.1" 200 121636]'
+2021-06-15 17:47:19 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:19 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/timeouts {"implicit": 10000}]'
+2021-06-15 17:47:19 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:47:19 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:21 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}]'
+2021-06-15 17:47:31 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 404 1050" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 404 1050]'
+2021-06-15 17:47:31 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:31 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/screenshot {}]'
+2021-06-15 17:47:32 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "GET /session/fd51622617b8328275e570430fd89159/screenshot HTTP/1.1" 200 121636" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "GET /session/fd51622617b8328275e570430fd89159/screenshot HTTP/1.1" 200 121636]'
+2021-06-15 17:47:32 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:32 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/screenshot {}]'
+2021-06-15 17:47:32 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "GET /session/fd51622617b8328275e570430fd89159/screenshot HTTP/1.1" 200 121636" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "GET /session/fd51622617b8328275e570430fd89159/screenshot HTTP/1.1" 200 121636]'
+2021-06-15 17:47:32 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:33 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": "li:nth-child(2) > .nav-item"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": "li:nth-child(2) > .nav-item"}]'
+2021-06-15 17:47:33 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88]'
+2021-06-15 17:47:33 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:33 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/f85dea8d-a817-45b7-827a-1a1c0888c501/click {"id": "f85dea8d-a817-45b7-827a-1a1c0888c501"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/f85dea8d-a817-45b7-827a-1a1c0888c501/click {"id": "f85dea8d-a817-45b7-827a-1a1c0888c501"}]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/f85dea8d-a817-45b7-827a-1a1c0888c501/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/f85dea8d-a817-45b7-827a-1a1c0888c501/click HTTP/1.1" 200 14]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": ".pro-form-operating-add > span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": ".pro-form-operating-add > span"}]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/d178a79a-08ad-458b-bc3f-246575f6c4e7/click {"id": "d178a79a-08ad-458b-bc3f-246575f6c4e7"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/d178a79a-08ad-458b-bc3f-246575f6c4e7/click {"id": "d178a79a-08ad-458b-bc3f-246575f6c4e7"}]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/d178a79a-08ad-458b-bc3f-246575f6c4e7/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/d178a79a-08ad-458b-bc3f-246575f6c4e7/click HTTP/1.1" 200 14]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": ".ivu-form-item:nth-child(1) .ivu-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": ".ivu-form-item:nth-child(1) .ivu-input"}]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/5af6f9e8-4f29-42ef-8122-f4b8af393d35/clear {"id": "5af6f9e8-4f29-42ef-8122-f4b8af393d35"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/5af6f9e8-4f29-42ef-8122-f4b8af393d35/clear {"id": "5af6f9e8-4f29-42ef-8122-f4b8af393d35"}]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/5af6f9e8-4f29-42ef-8122-f4b8af393d35/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/5af6f9e8-4f29-42ef-8122-f4b8af393d35/clear HTTP/1.1" 200 14]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/5af6f9e8-4f29-42ef-8122-f4b8af393d35/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "5af6f9e8-4f29-42ef-8122-f4b8af393d35"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/5af6f9e8-4f29-42ef-8122-f4b8af393d35/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "5af6f9e8-4f29-42ef-8122-f4b8af393d35"}]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/5af6f9e8-4f29-42ef-8122-f4b8af393d35/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/5af6f9e8-4f29-42ef-8122-f4b8af393d35/value HTTP/1.1" 200 14]'
+2021-06-15 17:47:34 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:36 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": ".ivu-form-item:nth-child(2) .ivu-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "css selector", "value": ".ivu-form-item:nth-child(2) .ivu-input"}]'
+2021-06-15 17:47:36 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88]'
+2021-06-15 17:47:36 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:36 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/4b1e2e30-a0d1-4182-946b-e6fe6549b425/clear {"id": "4b1e2e30-a0d1-4182-946b-e6fe6549b425"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/4b1e2e30-a0d1-4182-946b-e6fe6549b425/clear {"id": "4b1e2e30-a0d1-4182-946b-e6fe6549b425"}]'
+2021-06-15 17:47:36 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/4b1e2e30-a0d1-4182-946b-e6fe6549b425/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/4b1e2e30-a0d1-4182-946b-e6fe6549b425/clear HTTP/1.1" 200 14]'
+2021-06-15 17:47:36 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:36 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/4b1e2e30-a0d1-4182-946b-e6fe6549b425/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "4b1e2e30-a0d1-4182-946b-e6fe6549b425"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/4b1e2e30-a0d1-4182-946b-e6fe6549b425/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "4b1e2e30-a0d1-4182-946b-e6fe6549b425"}]'
+2021-06-15 17:47:36 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/4b1e2e30-a0d1-4182-946b-e6fe6549b425/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/4b1e2e30-a0d1-4182-946b-e6fe6549b425/value HTTP/1.1" 200 14]'
+2021-06-15 17:47:36 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:38 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "xpath", "value": "/html/body/div/div/div/div[2]/div[2]/div[1]/form/div[3]/div/div/input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "xpath", "value": "/html/body/div/div/div/div[2]/div[2]/div[1]/form/div[3]/div/div/input"}]'
+2021-06-15 17:47:38 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88]'
+2021-06-15 17:47:38 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:38 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/ebd0408b-f8fb-42ed-bad3-bc45d32c3c45/clear {"id": "ebd0408b-f8fb-42ed-bad3-bc45d32c3c45"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/ebd0408b-f8fb-42ed-bad3-bc45d32c3c45/clear {"id": "ebd0408b-f8fb-42ed-bad3-bc45d32c3c45"}]'
+2021-06-15 17:47:38 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/ebd0408b-f8fb-42ed-bad3-bc45d32c3c45/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/ebd0408b-f8fb-42ed-bad3-bc45d32c3c45/clear HTTP/1.1" 200 14]'
+2021-06-15 17:47:38 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:38 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/ebd0408b-f8fb-42ed-bad3-bc45d32c3c45/value {"text": "E:\\\u9879\u76ee\u5305\\6387_\u65b0\u798f\u5927_20210526180511368.iw", "value": ["E", ":", "\\", "\u9879", "\u76ee", "\u5305", "\\", "6", "3", "8", "7", "_", "\u65b0", "\u798f", "\u5927", "_", "2", "0", "2", "1", "0", "5", "2", "6", "1", "8", "0", "5", "1", "1", "3", "6", "8", ".", "i", "w"], "id": "ebd0408b-f8fb-42ed-bad3-bc45d32c3c45"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/ebd0408b-f8fb-42ed-bad3-bc45d32c3c45/value {"text": "E:\\\u9879\u76ee\u5305\\6387_\u65b0\u798f\u5927_20210526180511368.iw", "value": ["E", ":", "\\", "\u9879", "\u76ee", "\u5305", "\\", "6", "3", "8", "7", "_", "\u65b0", "\u798f", "\u5927", "_", "2", "0", "2", "1", "0", "5", "2", "6", "1", "8", "0", "5", "1", "1", "3", "6", "8", ".", "i", "w"], "id": "ebd0408b-f8fb-42ed-bad3-bc45d32c3c45"}]'
+2021-06-15 17:47:38 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/ebd0408b-f8fb-42ed-bad3-bc45d32c3c45/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/ebd0408b-f8fb-42ed-bad3-bc45d32c3c45/value HTTP/1.1" 200 14]'
+2021-06-15 17:47:38 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:40 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div[1]/div[2]/div/button[2]/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div[1]/div[2]/div/button[2]/span"}]'
+2021-06-15 17:47:40 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element HTTP/1.1" 200 88]'
+2021-06-15 17:47:40 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:40 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/9b0a7ea7-6473-4cd7-8eb6-c9af64456129/click {"id": "9b0a7ea7-6473-4cd7-8eb6-c9af64456129"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/element/9b0a7ea7-6473-4cd7-8eb6-c9af64456129/click {"id": "9b0a7ea7-6473-4cd7-8eb6-c9af64456129"}]'
+2021-06-15 17:47:40 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/9b0a7ea7-6473-4cd7-8eb6-c9af64456129/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/element/9b0a7ea7-6473-4cd7-8eb6-c9af64456129/click HTTP/1.1" 200 14]'
+2021-06-15 17:47:40 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:52 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159/timeouts {"implicit": 10000}]'
+2021-06-15 17:47:52 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "POST /session/fd51622617b8328275e570430fd89159/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:47:52 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:47:52 [7076 Thread-1:12740] DEBUG _request remote_connection.py-388 :"DELETE http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159 {}" @TAKIN
+'[DEBUG][DELETE http://127.0.0.1:22343/session/fd51622617b8328275e570430fd89159 {}]'
+2021-06-15 17:47:52 [7076 Thread-1:12740] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:22343 "DELETE /session/fd51622617b8328275e570430fd89159 HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:22343 "DELETE /session/fd51622617b8328275e570430fd89159 HTTP/1.1" 200 14]'
+2021-06-15 17:47:52 [7076 Thread-1:12740] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:54:48 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}]'
+2021-06-15 17:54:48 [5084 Thread-9:19880] DEBUG _new_conn connectionpool.py-226 :"Starting new HTTP connection (1): 127.0.0.1:26952" @TAKIN
+'[DEBUG][Starting new HTTP connection (1): 127.0.0.1:26952]'
+2021-06-15 17:54:48 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session HTTP/1.1" 200 753" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session HTTP/1.1" 200 753]'
+2021-06-15 17:54:48 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:02 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/url {"url": "https://10.10.11.7:9004"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/url {"url": "https://10.10.11.7:9004"}]'
+2021-06-15 17:55:02 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/url HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/url HTTP/1.1" 200 14]'
+2021-06-15 17:55:02 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:04 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/timeouts {"implicit": 10000}]'
+2021-06-15 17:55:04 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:55:04 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:14 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:55:14 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element HTTP/1.1" 200 88]'
+2021-06-15 17:55:14 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:15 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/2a6d1639-ae4c-44a6-8739-bca36138f645/clear {"id": "2a6d1639-ae4c-44a6-8739-bca36138f645"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/2a6d1639-ae4c-44a6-8739-bca36138f645/clear {"id": "2a6d1639-ae4c-44a6-8739-bca36138f645"}]'
+2021-06-15 17:55:15 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/2a6d1639-ae4c-44a6-8739-bca36138f645/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/2a6d1639-ae4c-44a6-8739-bca36138f645/clear HTTP/1.1" 200 14]'
+2021-06-15 17:55:15 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:16 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/2a6d1639-ae4c-44a6-8739-bca36138f645/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "2a6d1639-ae4c-44a6-8739-bca36138f645"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/2a6d1639-ae4c-44a6-8739-bca36138f645/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "2a6d1639-ae4c-44a6-8739-bca36138f645"}]'
+2021-06-15 17:55:16 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/2a6d1639-ae4c-44a6-8739-bca36138f645/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/2a6d1639-ae4c-44a6-8739-bca36138f645/value HTTP/1.1" 200 14]'
+2021-06-15 17:55:16 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:20 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:55:20 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element HTTP/1.1" 200 88]'
+2021-06-15 17:55:20 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:23 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/d67f4cf0-adb6-405c-9c6a-75433ba2e491/clear {"id": "d67f4cf0-adb6-405c-9c6a-75433ba2e491"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/d67f4cf0-adb6-405c-9c6a-75433ba2e491/clear {"id": "d67f4cf0-adb6-405c-9c6a-75433ba2e491"}]'
+2021-06-15 17:55:24 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/d67f4cf0-adb6-405c-9c6a-75433ba2e491/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/d67f4cf0-adb6-405c-9c6a-75433ba2e491/clear HTTP/1.1" 200 14]'
+2021-06-15 17:55:24 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:24 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/d67f4cf0-adb6-405c-9c6a-75433ba2e491/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "d67f4cf0-adb6-405c-9c6a-75433ba2e491"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/d67f4cf0-adb6-405c-9c6a-75433ba2e491/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "d67f4cf0-adb6-405c-9c6a-75433ba2e491"}]'
+2021-06-15 17:55:24 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/d67f4cf0-adb6-405c-9c6a-75433ba2e491/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/d67f4cf0-adb6-405c-9c6a-75433ba2e491/value HTTP/1.1" 200 14]'
+2021-06-15 17:55:24 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:32 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element {"using": "css selector", "value": ".ivu-checkbox-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element {"using": "css selector", "value": ".ivu-checkbox-input"}]'
+2021-06-15 17:55:32 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element HTTP/1.1" 200 88]'
+2021-06-15 17:55:32 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:33 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/0b082cf4-77e9-4f3f-98f3-bacf460c8144/click {"id": "0b082cf4-77e9-4f3f-98f3-bacf460c8144"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/0b082cf4-77e9-4f3f-98f3-bacf460c8144/click {"id": "0b082cf4-77e9-4f3f-98f3-bacf460c8144"}]'
+2021-06-15 17:55:33 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/0b082cf4-77e9-4f3f-98f3-bacf460c8144/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/0b082cf4-77e9-4f3f-98f3-bacf460c8144/click HTTP/1.1" 200 14]'
+2021-06-15 17:55:33 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:35 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}]'
+2021-06-15 17:55:35 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element HTTP/1.1" 200 88]'
+2021-06-15 17:55:35 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:55:36 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/1a171f1e-ff78-423c-b43b-58bfe778c220/click {"id": "1a171f1e-ff78-423c-b43b-58bfe778c220"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element/1a171f1e-ff78-423c-b43b-58bfe778c220/click {"id": "1a171f1e-ff78-423c-b43b-58bfe778c220"}]'
+2021-06-15 17:55:36 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/1a171f1e-ff78-423c-b43b-58bfe778c220/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element/1a171f1e-ff78-423c-b43b-58bfe778c220/click HTTP/1.1" 200 14]'
+2021-06-15 17:55:36 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:56:27 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}]'
+2021-06-15 17:56:37 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element HTTP/1.1" 404 1050" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/element HTTP/1.1" 404 1050]'
+2021-06-15 17:56:37 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:56:52 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/screenshot {}]'
+2021-06-15 17:56:52 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "GET /session/80a836ff70727a3eb81f2c8f75c610ee/screenshot HTTP/1.1" 200 83160" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "GET /session/80a836ff70727a3eb81f2c8f75c610ee/screenshot HTTP/1.1" 200 83160]'
+2021-06-15 17:56:52 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:57:21 [5084 Thread-9:19880] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:26952/session/80a836ff70727a3eb81f2c8f75c610ee/timeouts {"implicit": 10000}]'
+2021-06-15 17:57:21 [5084 Thread-9:19880] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:26952 "POST /session/80a836ff70727a3eb81f2c8f75c610ee/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:57:21 [5084 Thread-9:19880] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:36 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"excludeSwitches": ["enable-logging"], "extensions": [], "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "args": ["--no-sandbox", "--ignore-certificate-errors"]}}}]'
+2021-06-15 17:58:36 [20016 Thread-1:7480] DEBUG _new_conn connectionpool.py-226 :"Starting new HTTP connection (1): 127.0.0.1:27455" @TAKIN
+'[DEBUG][Starting new HTTP connection (1): 127.0.0.1:27455]'
+2021-06-15 17:58:36 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session HTTP/1.1" 200 754" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session HTTP/1.1" 200 754]'
+2021-06-15 17:58:36 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:36 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/url {"url": "https://10.10.11.7:9004"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/url {"url": "https://10.10.11.7:9004"}]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/url HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/url HTTP/1.1" 200 14]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/timeouts {"implicit": 10000}]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/d1c21c9e-04d6-450b-86e3-d545f86cabeb/clear {"id": "d1c21c9e-04d6-450b-86e3-d545f86cabeb"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/d1c21c9e-04d6-450b-86e3-d545f86cabeb/clear {"id": "d1c21c9e-04d6-450b-86e3-d545f86cabeb"}]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/d1c21c9e-04d6-450b-86e3-d545f86cabeb/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/d1c21c9e-04d6-450b-86e3-d545f86cabeb/clear HTTP/1.1" 200 14]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/d1c21c9e-04d6-450b-86e3-d545f86cabeb/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "d1c21c9e-04d6-450b-86e3-d545f86cabeb"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/d1c21c9e-04d6-450b-86e3-d545f86cabeb/value {"text": "superadmin", "value": ["s", "u", "p", "e", "r", "a", "d", "m", "i", "n"], "id": "d1c21c9e-04d6-450b-86e3-d545f86cabeb"}]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/d1c21c9e-04d6-450b-86e3-d545f86cabeb/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/d1c21c9e-04d6-450b-86e3-d545f86cabeb/value HTTP/1.1" 200 14]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": "div.ivu-form-item:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"}]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/c84b730c-212c-4d8c-b32f-e7baaa773b56/clear {"id": "c84b730c-212c-4d8c-b32f-e7baaa773b56"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/c84b730c-212c-4d8c-b32f-e7baaa773b56/clear {"id": "c84b730c-212c-4d8c-b32f-e7baaa773b56"}]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/c84b730c-212c-4d8c-b32f-e7baaa773b56/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/c84b730c-212c-4d8c-b32f-e7baaa773b56/clear HTTP/1.1" 200 14]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/c84b730c-212c-4d8c-b32f-e7baaa773b56/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "c84b730c-212c-4d8c-b32f-e7baaa773b56"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/c84b730c-212c-4d8c-b32f-e7baaa773b56/value {"text": "P@ssw0rd", "value": ["P", "@", "s", "s", "w", "0", "r", "d"], "id": "c84b730c-212c-4d8c-b32f-e7baaa773b56"}]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/c84b730c-212c-4d8c-b32f-e7baaa773b56/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/c84b730c-212c-4d8c-b32f-e7baaa773b56/value HTTP/1.1" 200 14]'
+2021-06-15 17:58:37 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": ".ivu-checkbox-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": ".ivu-checkbox-input"}]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/a7b1da8b-27af-4a63-981f-2086cdf853cb/click {"id": "a7b1da8b-27af-4a63-981f-2086cdf853cb"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/a7b1da8b-27af-4a63-981f-2086cdf853cb/click {"id": "a7b1da8b-27af-4a63-981f-2086cdf853cb"}]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/a7b1da8b-27af-4a63-981f-2086cdf853cb/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/a7b1da8b-27af-4a63-981f-2086cdf853cb/click HTTP/1.1" 200 14]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "xpath", "value": "/html/body/div/div/div/form/div[3]/div/button"}]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/cbccb6a7-9b8d-4e22-be86-7ed9a35e959e/click {"id": "cbccb6a7-9b8d-4e22-be86-7ed9a35e959e"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/cbccb6a7-9b8d-4e22-be86-7ed9a35e959e/click {"id": "cbccb6a7-9b8d-4e22-be86-7ed9a35e959e"}]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/cbccb6a7-9b8d-4e22-be86-7ed9a35e959e/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/cbccb6a7-9b8d-4e22-be86-7ed9a35e959e/click HTTP/1.1" 200 14]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:39 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "xpath", "value": "/html/body/div[2]/div/div/div[1]/div/span"}]'
+2021-06-15 17:58:49 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 404 1050" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 404 1050]'
+2021-06-15 17:58:49 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:49 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/screenshot {}]'
+2021-06-15 17:58:49 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "GET /session/20bd8742c96d2e8a596127b0f359cf6e/screenshot HTTP/1.1" 200 121116" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "GET /session/20bd8742c96d2e8a596127b0f359cf6e/screenshot HTTP/1.1" 200 121116]'
+2021-06-15 17:58:49 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:49 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"GET http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/screenshot {}" @TAKIN
+'[DEBUG][GET http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/screenshot {}]'
+2021-06-15 17:58:49 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "GET /session/20bd8742c96d2e8a596127b0f359cf6e/screenshot HTTP/1.1" 200 121116" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "GET /session/20bd8742c96d2e8a596127b0f359cf6e/screenshot HTTP/1.1" 200 121116]'
+2021-06-15 17:58:49 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": "li:nth-child(2) > .nav-item"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": "li:nth-child(2) > .nav-item"}]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/29296f30-7c0b-4cdc-ab24-71ca6a293fc6/click {"id": "29296f30-7c0b-4cdc-ab24-71ca6a293fc6"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/29296f30-7c0b-4cdc-ab24-71ca6a293fc6/click {"id": "29296f30-7c0b-4cdc-ab24-71ca6a293fc6"}]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/29296f30-7c0b-4cdc-ab24-71ca6a293fc6/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/29296f30-7c0b-4cdc-ab24-71ca6a293fc6/click HTTP/1.1" 200 14]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": ".pro-form-operating-add > span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": ".pro-form-operating-add > span"}]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/cb721bfb-4c81-4cf8-879a-743697da4dd2/click {"id": "cb721bfb-4c81-4cf8-879a-743697da4dd2"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/cb721bfb-4c81-4cf8-879a-743697da4dd2/click {"id": "cb721bfb-4c81-4cf8-879a-743697da4dd2"}]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/cb721bfb-4c81-4cf8-879a-743697da4dd2/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/cb721bfb-4c81-4cf8-879a-743697da4dd2/click HTTP/1.1" 200 14]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": ".ivu-form-item:nth-child(1) .ivu-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": ".ivu-form-item:nth-child(1) .ivu-input"}]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/61ab54ec-1265-4b3d-87b9-19d29dac5240/clear {"id": "61ab54ec-1265-4b3d-87b9-19d29dac5240"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/61ab54ec-1265-4b3d-87b9-19d29dac5240/clear {"id": "61ab54ec-1265-4b3d-87b9-19d29dac5240"}]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/61ab54ec-1265-4b3d-87b9-19d29dac5240/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/61ab54ec-1265-4b3d-87b9-19d29dac5240/clear HTTP/1.1" 200 14]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/61ab54ec-1265-4b3d-87b9-19d29dac5240/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "61ab54ec-1265-4b3d-87b9-19d29dac5240"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/61ab54ec-1265-4b3d-87b9-19d29dac5240/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "61ab54ec-1265-4b3d-87b9-19d29dac5240"}]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/61ab54ec-1265-4b3d-87b9-19d29dac5240/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/61ab54ec-1265-4b3d-87b9-19d29dac5240/value HTTP/1.1" 200 14]'
+2021-06-15 17:58:51 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:53 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": ".ivu-form-item:nth-child(2) .ivu-input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "css selector", "value": ".ivu-form-item:nth-child(2) .ivu-input"}]'
+2021-06-15 17:58:53 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88]'
+2021-06-15 17:58:53 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:53 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/faea1033-f32a-4d99-aa59-7cbdabd91d1c/clear {"id": "faea1033-f32a-4d99-aa59-7cbdabd91d1c"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/faea1033-f32a-4d99-aa59-7cbdabd91d1c/clear {"id": "faea1033-f32a-4d99-aa59-7cbdabd91d1c"}]'
+2021-06-15 17:58:53 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/faea1033-f32a-4d99-aa59-7cbdabd91d1c/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/faea1033-f32a-4d99-aa59-7cbdabd91d1c/clear HTTP/1.1" 200 14]'
+2021-06-15 17:58:53 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:53 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/faea1033-f32a-4d99-aa59-7cbdabd91d1c/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "faea1033-f32a-4d99-aa59-7cbdabd91d1c"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/faea1033-f32a-4d99-aa59-7cbdabd91d1c/value {"text": "quanju", "value": ["q", "u", "a", "n", "j", "u"], "id": "faea1033-f32a-4d99-aa59-7cbdabd91d1c"}]'
+2021-06-15 17:58:53 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/faea1033-f32a-4d99-aa59-7cbdabd91d1c/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/faea1033-f32a-4d99-aa59-7cbdabd91d1c/value HTTP/1.1" 200 14]'
+2021-06-15 17:58:53 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:55 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "xpath", "value": "/html/body/div/div/div/div[2]/div[2]/div[1]/form/div[3]/div/div/input"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "xpath", "value": "/html/body/div/div/div/div[2]/div[2]/div[1]/form/div[3]/div/div/input"}]'
+2021-06-15 17:58:55 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88]'
+2021-06-15 17:58:55 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:55 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/b100635c-127c-4f1e-8825-642feaa7bbbf/clear {"id": "b100635c-127c-4f1e-8825-642feaa7bbbf"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/b100635c-127c-4f1e-8825-642feaa7bbbf/clear {"id": "b100635c-127c-4f1e-8825-642feaa7bbbf"}]'
+2021-06-15 17:58:55 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/b100635c-127c-4f1e-8825-642feaa7bbbf/clear HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/b100635c-127c-4f1e-8825-642feaa7bbbf/clear HTTP/1.1" 200 14]'
+2021-06-15 17:58:55 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:55 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/b100635c-127c-4f1e-8825-642feaa7bbbf/value {"text": "E:\\\u9879\u76ee\u5305\\6387_\u65b0\u798f\u5927_20210526180511368.iw", "value": ["E", ":", "\\", "\u9879", "\u76ee", "\u5305", "\\", "6", "3", "8", "7", "_", "\u65b0", "\u798f", "\u5927", "_", "2", "0", "2", "1", "0", "5", "2", "6", "1", "8", "0", "5", "1", "1", "3", "6", "8", ".", "i", "w"], "id": "b100635c-127c-4f1e-8825-642feaa7bbbf"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/b100635c-127c-4f1e-8825-642feaa7bbbf/value {"text": "E:\\\u9879\u76ee\u5305\\6387_\u65b0\u798f\u5927_20210526180511368.iw", "value": ["E", ":", "\\", "\u9879", "\u76ee", "\u5305", "\\", "6", "3", "8", "7", "_", "\u65b0", "\u798f", "\u5927", "_", "2", "0", "2", "1", "0", "5", "2", "6", "1", "8", "0", "5", "1", "1", "3", "6", "8", ".", "i", "w"], "id": "b100635c-127c-4f1e-8825-642feaa7bbbf"}]'
+2021-06-15 17:58:55 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/b100635c-127c-4f1e-8825-642feaa7bbbf/value HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/b100635c-127c-4f1e-8825-642feaa7bbbf/value HTTP/1.1" 200 14]'
+2021-06-15 17:58:55 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:57 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div[1]/div[2]/div/button[2]/span"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/div[2]/div[1]/div[2]/div/button[2]/span"}]'
+2021-06-15 17:58:57 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element HTTP/1.1" 200 88]'
+2021-06-15 17:58:57 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:58:57 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/ed334044-6365-445c-a0de-0cc5bb37968a/click {"id": "ed334044-6365-445c-a0de-0cc5bb37968a"}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/element/ed334044-6365-445c-a0de-0cc5bb37968a/click {"id": "ed334044-6365-445c-a0de-0cc5bb37968a"}]'
+2021-06-15 17:58:58 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/ed334044-6365-445c-a0de-0cc5bb37968a/click HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/element/ed334044-6365-445c-a0de-0cc5bb37968a/click HTTP/1.1" 200 14]'
+2021-06-15 17:58:58 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:59:10 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/timeouts {"implicit": 10000}" @TAKIN
+'[DEBUG][POST http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e/timeouts {"implicit": 10000}]'
+2021-06-15 17:59:10 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/timeouts HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "POST /session/20bd8742c96d2e8a596127b0f359cf6e/timeouts HTTP/1.1" 200 14]'
+2021-06-15 17:59:10 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'
+2021-06-15 17:59:10 [20016 Thread-1:7480] DEBUG _request remote_connection.py-388 :"DELETE http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e {}" @TAKIN
+'[DEBUG][DELETE http://127.0.0.1:27455/session/20bd8742c96d2e8a596127b0f359cf6e {}]'
+2021-06-15 17:59:10 [20016 Thread-1:7480] DEBUG _make_request connectionpool.py-433 :"http://127.0.0.1:27455 "DELETE /session/20bd8742c96d2e8a596127b0f359cf6e HTTP/1.1" 200 14" @TAKIN
+'[DEBUG][http://127.0.0.1:27455 "DELETE /session/20bd8742c96d2e8a596127b0f359cf6e HTTP/1.1" 200 14]'
+2021-06-15 17:59:10 [20016 Thread-1:7480] DEBUG _request remote_connection.py-440 :"Finished Request" @TAKIN
+'[DEBUG][Finished Request]'

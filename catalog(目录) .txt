@@ -1,0 +1,55 @@
+一、conf/  #配置
+	1.global.ini  #浏览器和邮箱配置：浏览器地址、对应驱动地址、对应内核名称
+	2.logggin.conf  #日志配置：日志输出方式、日志格式
+
+二、driver/  #浏览器驱动
+	1.chromedriver.exe  #谷歌浏览器驱动
+	2.geckodriver.exe  #火狐浏览器驱动
+	3.IEDriverServer.exe  #IE浏览器驱动
+	4.msedgedriver.exe  #edge浏览器驱动
+
+三、日志/  #日志文件，由conf/logggin.conf文件配置
+	1.service.log 
+	2.today.log
+	3.max1G.log
+	
+四、modules/  #主程序
+	1 mains/  #主要文件
+  		1.browser.py  #浏览器初始化及相关操作
+  		2.load_ini.py  #加载conf/global.ini配置文件
+  		3.log.py  #加载日志配置并实例化
+  		4.myunit.py  #定义测试类
+		5.sendemail.py  #打包最新测试报告并发送邮件
+		6.report.py  #创建新的报告目录和查找最新的报告目录
+		7.suite.py  #创建新的测试suite和run测试suite
+		8.get_verifi_mail.py  #获取邮箱收到的验证码邮件
+		9.send_verifi_mail.py  #发送验证码邮件
+		10.sjzfc.py  #随机字符串模块
+
+ 	2 run03/  #run3.0平台系统	
+		1.element_run03.py  #页面元素
+		2.run03_procs.py  #操作流程
+		3.run03_test.py  #测试用例
+		4.run03unit.py  #测试初始化与结束
+
+ 	3 run04/  #run4.0平台系统	
+		1.element_run04.py  #页面元素
+		2.run04_procs.py  #操作流程
+		3.run04_test.py  #测试用例
+		4.run04unit.py  #测试初始化与结束
+
+	4 gp02/  #gp2.0平台系统
+
+	。。。
+
+	4.run_run03_test.py  #run3.0平台系统执行文件
+	5.run_run04_test.py  #run4.0平台系统执行文件
+
+五、package/  #第三方依赖包，暂无
+
+六、report/  #测试报告保存目录
+
+七、run_test.py  #测试脚本执行入口文件
+
+八、README.rst  #自述文件
+
