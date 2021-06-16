@@ -1,4 +1,4 @@
-username_xpath="/html/body/div/div/div[2]/div/form/div[1]/div[1]/input"
+username_xpath="body > div > div > div.loginRight > div > form > div.input-group > div.form-group.form-group2.has-success > input"
 password_xpath="/html/body/div/div/div[2]/div/form/div[1]/div[2]/input"
 
 login_xpath="/html/body/div/div/div[2]/div/form/div[2]/input[1]"
