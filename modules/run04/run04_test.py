@@ -1,15 +1,16 @@
 #coding=utf-8
-import sys,os,unittest
-path_load_ini=os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+from os import path as opath
+from sys import path as spath
+#配置路径model到环境
+path_load_ini=opath.dirname(opath.dirname(opath.dirname(opath.realpath(__file__))))
 path_load_ini=path_load_ini.replace('\\', '/')
-sys.path.append(path_load_ini)
+spath.append(path_load_ini)
 
 from modules.run04.run04unit import Run04Test
-from modules.run04.run04_procs import  Run04bro
-
 
 class loginTest(Run04Test):
-    def test_correct_login(self):
+    def test_correct_run04_login(self):
+        '''登录测试'''
         self.run04bro.login("superadmin","P@ssw0rd")
         text=u"登录成功"
         ts=self.run04bro.xinxi()

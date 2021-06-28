@@ -1,12 +1,13 @@
 #coding=utf-8 
-import os,logging
-import logging.config
+from os import path as opath
+from logging.config import fileConfig
+from logging import getLogger
 import functools
-path_base=os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+path_base=opath.dirname(opath.dirname(opath.dirname(opath.realpath(__file__))))
 path_base=path_base.replace('\\', '/')
 
-logging.config.fileConfig(path_base+'/conf/logging.conf')
-logger = logging.getLogger('file')
+fileConfig(path_base+'/conf/logging.conf')
+logger = getLogger('file')
 #loggerp = logging.getLogger('conslo')
 
 def takin_log(info=""):

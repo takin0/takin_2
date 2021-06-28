@@ -1,10 +1,10 @@
 #coding=utf-8 
-import os,sys,time#,logging
-
+from os import path as opath
+from sys import path as spath
 #配置路径model到环境
-path_load_ini=os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+path_load_ini=opath.dirname(opath.dirname(opath.dirname(opath.realpath(__file__))))
 path_load_ini=path_load_ini.replace('\\', '/')
-sys.path.append(path_load_ini)
+spath.append(path_load_ini)
 
 from modules.mains.log import takin_log
 from modules.mains.browser import Browser
@@ -16,7 +16,7 @@ testwd="P@ssw0rd"
 
 class Run04bro(Browser):
         
-    #@takin_log("登录失败")
+    @takin_log("登录失败")
     def login(self,testname,testwd,remb=""):
         super().open_url(testurl)
         super().olwt(10)
@@ -26,8 +26,8 @@ class Run04bro(Browser):
         super().by_css(password_css)
         super().clear()
         super().input(testwd)
-        time.sleep(2)
-        super().by_verifi(verifi_xpath,verifiipt_xpath)
+        super().sleep(2)
+        super().by_verifi(verifiipt_xpath)
         if remb=="T":     
             zz=super().by_css(rember_css)
             super().click()
@@ -60,8 +60,8 @@ if __name__ == "__main__":
 
         testname="superadmin"
         testwd="P@ssw0rd"
-        yb=Yanbro()
-        ss=Yanbro()
+        yb=Run04bro()
+        ss=Run04bro()
         yb.login(testname,testwd,"T")
         ss.login("quanju",testwd,"T")
         yb.logout()

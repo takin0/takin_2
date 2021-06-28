@@ -27,7 +27,7 @@ class Gp02bro(Browser):
         #info = super().duanyan(denglu_info_xpath,denglu_info)
         #return info
 
-    
+    #圈选
     def start_qx(self,pj_name,url):
         
         time.sleep(2)

@@ -1,11 +1,12 @@
 #! encoding:utf8
-import os,sys
-path_base=os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+from os import path as opath
+from sys import path as spath
+path_base=opath.dirname(opath.dirname(opath.dirname(opath.realpath(__file__))))
 path_base=path_base.replace('\\', '/')
-sys.path.append(path_base)
-
+spath.append(path_base)
+from modules.mains.log import takin_log
 import imaplib
-import email,time,datetime
+import email
 from email.header import decode_header
 from time import sleep
 from modules.mains.load_ini import ReadConfig
@@ -19,6 +20,7 @@ email_from_addr = emlcf.get_emcf("from_addr")
 email_addr = emlcf.get_emcf("to_addr")
 email_popport = emlcf.get_emcf("popport")
 
+@takin_log("parseBody函数错误")
 def parseBody(message):
     """ 解析邮件/信体 """
     # 循环信件中的每一个mime的数据块
@@ -36,7 +38,7 @@ def parseBody(message):
         if times != 1:
             break
 
-
+@takin_log("get_new_Mail_txt函数错误")
 def get_new_Mail_txt(num):            
     try:
         serv = imaplib.IMAP4_SSL(email_popserver, email_popport)
@@ -55,10 +57,9 @@ def get_new_Mail_txt(num):
     serv.logout()
     return txt
 
-    
+@takin_log("get_subisverifi_mail函数错误")
 def get_subisverifi_mail():
-    T=time.time()
-    #subject = 'Your SSL Certificate'
+    #T=time()
     sub = '未收到验证码!!!!!'
     conn = imaplib.IMAP4_SSL(email_popserver, email_popport)
     conn.login(email_username, email_password)
@@ -80,12 +81,11 @@ def get_subisverifi_mail():
         if "回复：Verification Code" in sub:
             mail_id = item[0].split()[i]
             break
-            
     conn.close()
     conn.logout()
-    #print(mail_id)
     return sub,mail_id
 
+@takin_log("get_verifi_mail")
 def get_verifi_mail(n=4,gjz="回复：Verification Code"):
     isloop = True
     times = 1
@@ -94,15 +94,14 @@ def get_verifi_mail(n=4,gjz="回复：Verification Code"):
         subject =subjects[0]
         sleep(2)
         times+=1
+        #print(times)
         txt = "未收到验证码!!!!!"
         #print(mail_sub)
         if gjz in subject:
             num = subjects[1]
             isloop = False
             txt = get_new_Mail_txt(num)
-
-            #print('txt'+txt)
-        elif times > 120:
+        elif times > 45:
             isloop = False
     return txt[0:n]
 

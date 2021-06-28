@@ -1,19 +1,17 @@
 #coding=utf-8 
-import os,sys,smtplib,zipfile
+from os import path as opath
+from sys import path as spath
+from smtplib import SMTP
 from email.utils import formataddr
-from email import encoders
-from email.header import Header
-from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
-from email.mime.application import MIMEApplication
 from time import sleep
 
-path_base=os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+path_base=opath.dirname(opath.dirname(opath.dirname(opath.realpath(__file__))))
 path_base=path_base.replace('\\', '/')
-sys.path.append(path_base)
-from modules.mains import log
+spath.append(path_base)
+from modules.mains.log import takin_log
 from modules.mains.report import TestReport
 from modules.mains.load_ini import ReadConfig
 
@@ -26,17 +24,15 @@ email_from_addr = emlcf.get_emcf("from_addr")
 email_to_addr = emlcf.get_emcf("to_addr")
 email_port = emlcf.get_emcf("port")
 
+@takin_log("发送验证码失败")
 def send_verifi_mail(img,subject='Verification Code'):
     smtpserver = email_smtpserver
     from_addr = email_username
     password = email_password
     port = email_port
-    
     file = open(img, "rb")
     img_data = file.read()
     file.close()
-    #邮件主题
-    
     #收件人
     to_addr = email_to_addr
     #创建附件实例
@@ -48,7 +44,7 @@ def send_verifi_mail(img,subject='Verification Code'):
     img.add_header('Content-ID', 'imageid')
     mg.attach(img)
     try:
-        smtpObj = smtplib.SMTP(smtpserver,port,timeout=20)
+        smtpObj = SMTP(smtpserver,port,timeout=20)
         smtpObj.ehlo()
         smtpObj.starttls()
         smtpObj.ehlo()
@@ -60,7 +56,6 @@ def send_verifi_mail(img,subject='Verification Code'):
         print ("验证码发送成功")
     except smtplib.SMTPException:
         print ("发送验证码失败")
-
 
 if __name__ == '__main__':
         send_verifi_mail()

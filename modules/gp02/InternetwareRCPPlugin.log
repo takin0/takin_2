@@ -62,3 +62,17 @@
 2021-06-16 10:24:17:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - local inject js zip MD5 :a17e6856148b30751dcb524c637c47be
 2021-06-16 10:24:17:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - server inject js zip MD5 :a17e6856148b30751dcb524c637c47be
 2021-06-16 10:24:18:INFO Worker-0 cn.internetware.yandata.rcp.update.CheckForUpdatesJob - 未发现可用的更新 === updatesite: http://10.10.11.106/app/lite/updates, message: 没有找到更新。
+2021-06-16 10:40:08:DEBUG main cn.internetware.yandata.rcp.view.AbstractNewTabView - iconUrl: file:/F:/QQDownload/plugins/cn.internetware.RCPplugin_2.0.0.201905140941/icons/internetware_16x16.png
+2021-06-16 10:40:08:DEBUG main cn.internetware.yandata.rcp.constants.Constants - init localStorage cache host to https://10.10.11.106
+2021-06-16 10:40:08:INFO main cn.internetware.yandata.rcp.constants.Constants - initial url set to https://10.10.11.106/#/login
+2021-06-16 10:40:08:DEBUG main cn.internetware.yandata.rcp.view.IndexView - remote debugging url: http://localhost:9222/devtools/inspector.html?ws=localhost:9222/devtools/page/df6a3765-4c6c-4d84-8527-dd3c0cdda89d
+2021-06-16 10:40:09:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - local inject js zip MD5 :a17e6856148b30751dcb524c637c47be
+2021-06-16 10:40:09:DEBUG Worker-1 cn.internetware.yandata.rcp.startup.CheckForInjectJs - server inject js zip MD5 :a17e6856148b30751dcb524c637c47be
+2021-06-16 10:40:09:INFO Worker-0 cn.internetware.yandata.rcp.update.CheckForUpdatesJob - 未发现可用的更新 === updatesite: http://10.10.11.106/app/lite/updates, message: 没有找到更新。
+2021-06-16 10:43:22:DEBUG main cn.internetware.yandata.rcp.view.AbstractNewTabView - iconUrl: file:/F:/QQDownload/plugins/cn.internetware.RCPplugin_2.0.0.201905140941/icons/internetware_16x16.png
+2021-06-16 10:43:22:DEBUG main cn.internetware.yandata.rcp.constants.Constants - init localStorage cache host to https://10.10.11.106
+2021-06-16 10:43:22:INFO main cn.internetware.yandata.rcp.constants.Constants - initial url set to https://10.10.11.106/#/login
+2021-06-16 10:43:22:DEBUG main cn.internetware.yandata.rcp.view.IndexView - remote debugging url: http://localhost:9222/devtools/inspector.html?ws=localhost:9222/devtools/page/7359e974-7499-437f-abca-f6512364a80c
+2021-06-16 10:43:22:DEBUG Worker-0 cn.internetware.yandata.rcp.startup.CheckForInjectJs - local inject js zip MD5 :a17e6856148b30751dcb524c637c47be
+2021-06-16 10:43:22:DEBUG Worker-0 cn.internetware.yandata.rcp.startup.CheckForInjectJs - server inject js zip MD5 :a17e6856148b30751dcb524c637c47be
+2021-06-16 10:43:23:INFO Worker-1 cn.internetware.yandata.rcp.update.CheckForUpdatesJob - 未发现可用的更新 === updatesite: http://10.10.11.106/app/lite/updates, message: 没有找到更新。

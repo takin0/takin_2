@@ -1,15 +1,16 @@
-import random,string
+from random import randint,choice,shuffle
+from string import ascii_uppercase,ascii_lowercase,punctuation
 
 #指定长度范围生成随机数字
 def numb(num1=1,num2=1):
     if num1 >= num2:
         num = num1
     else:
-        num = random.randint(num1,num2)
+        num = randint(num1,num2)
     digits = ''
     while num > 0:
             
-        digit = random.randint(0,9)
+        digit = randint(0,9)
         num -= 1
         digits = digits + (str(digit))
     return digits
@@ -19,11 +20,11 @@ def lowl(num1=1,num2=1):
     if num1 >= num2:
         num = num1
     else:
-        num = random.randint(num1,num2)
+        num = randint(num1,num2)
     letters= ''
     while num > 0:
-        s = string.ascii_lowercase
-        letter = random.choice(s)
+        s = ascii_lowercase
+        letter = choice(s)
         num -= 1
         letters = letters + letter
     return letters
@@ -33,11 +34,11 @@ def uppl(num1=1,num2=1):
     if num1 >= num2:
         num = num1
     else:
-        num = random.randint(num1,num2)
+        num = randint(num1,num2)
     letters= ''
     while num > 0:
-        s = string.ascii_uppercase
-        letter = random.choice(s)
+        s = ascii_uppercase
+        letter = choice(s)
         num -= 1
         letters = letters + letter
     return letters
@@ -47,12 +48,12 @@ def punc(num1=1,num2=1):
     if num1 >= num2:
         num = num1
     else:
-        num = random.randint(num1,num2)
+        num = randint(num1,num2)
     puncs = ''
     while num > 0:
-        s = string.ascii_uppercase
-        s = string.punctuation
-        punc = random.choice(s)
+        s = ascii_uppercase
+        s = punctuation
+        punc = choice(s)
         num -= 1
         puncs = puncs + str(punc)
     return puncs
@@ -96,13 +97,13 @@ def sjzf(num1=3,num2=3,req='lnu',opt=''):
             if ('p' in opt) or ('P' in opt):
                 opts.append("punc()")
         
-            num = random.randint(num1,num2)
+            num = randint(num1,num2)
             while num > len(req):
-                zf = eval(random.choice(opts))
+                zf = eval(choice(opts))
                 num -= 1
                 zfc = zfc + zf
             zfc_list = list(zfc)
-            random.shuffle(zfc_list)
+            shuffle(zfc_list)
             return ''.join(zfc_list)
 
 #指定长度范围生成随机汉字
@@ -110,11 +111,11 @@ def chne(num1=1,num2=1):
     if num1 >= num2:
         num = num1
     else:
-        num = random.randint(num1,num2)
+        num = randint(num1,num2)
     strs=''
     while num>0:
-        head = random.randint(0xb0, 0xf7)
-        body = random.randint(0xa1, 0xfe)
+        head = randint(0xb0, 0xf7)
+        body = randint(0xa1, 0xfe)
         val = f'{head:x} {body:x}'
         num -= 1
         str = bytes.fromhex(val).decode('gb2312',errors = 'ignore')

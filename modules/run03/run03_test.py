@@ -1,15 +1,13 @@
 #coding=utf-8
-import sys,os,unittest
-path_load_ini=os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+from os import path as opath
+from sys import path as spath
+#配置路径model到环境
+path_load_ini=opath.dirname(opath.dirname(opath.dirname(opath.realpath(__file__))))
 path_load_ini=path_load_ini.replace('\\', '/')
-sys.path.append(path_load_ini)
+spath.append(path_load_ini)
+
 from modules.mains.log import takin_log
-#from selenium.webdriver.support import expected_conditions as EC
-#from selenium.webdriver.common.by import By
-
-#from modules.run03.run03_procs import Run03bro
 from modules.run03.run03unit import  MyTest
-
 from modules.run03.element_run03 import *
 from BeautifulReport import BeautifulReport
 
